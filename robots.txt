@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://leebai1863-cell.github.io/sitemap.xml
+Sitemap: https://smart-ag.github.io/sitemap.xml
