@@ -22,13 +22,13 @@ nav: false
 #### 联系方式
 - **电话**：029-87092476
 - **邮箱**：
-  - 学校邮箱：[fulsh@nwafu.edu.cn](mailto:fulsh@nwafu.edu.cn)
-  - 个人邮箱：[longsheng.fu@outlook.com](mailto:longsheng.fu@outlook.com)
+  - 学校邮箱：fulsh@nwafu.edu.cn
+  - 个人邮箱：longsheng.fu@outlook.com
 
 #### 所属机构
 - **学院**：机械与电子工程学院
 - **学校**：西北农林科技大学
-- **学院官网**：[https://cmee.nwafu.edu.cn](https://cmee.nwafu.edu.cn)
+- **学院官网**：https://cmee.nwafu.edu.cn
 
 <style>
 /* 基础样式 */
