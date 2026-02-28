@@ -16,19 +16,19 @@ nav: false
 - **邮编**：712100
 
 #### 傅隆生老师办公室地址
-- **地址**：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9402室
+- **地址**：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9404室
 - **邮编**：712100
 
 #### 联系方式
 - **电话**：029-87092476
 - **邮箱**：
-  - 学校邮箱：fulsh@nwafu.edu.cn
-  - 个人邮箱：longsheng.fu@outlook.com
+  - 学校邮箱：[fulsh@nwafu.edu.cn](mailto:fulsh@nwafu.edu.cn)
+  - 个人邮箱：[longsheng.fu@outlook.com](mailto:longsheng.fu@outlook.com)
 
 #### 所属机构
 - **学院**：机械与电子工程学院
 - **学校**：西北农林科技大学
-- **学院官网**：https://cmee.nwafu.edu.cn
+- **学院官网**：[https://cmee.nwafu.edu.cn](https://cmee.nwafu.edu.cn)
 
 <style>
 /* 基础样式 */
@@ -67,8 +67,8 @@ nav: false
 }
 
 .contact-photo img {
-  max-width: 600px;   /* 限制最大宽度为300像素，可根据需要调整 */
-  width: 100%;        /* 在小屏幕上自动缩小 */
+  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
