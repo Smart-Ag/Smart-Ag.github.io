@@ -1,13 +1,12 @@
 ---
 layout: page
-title: submenus
+title: Submenus
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Contact Us
+    permalink: /contact_us/
+  - title: Student Recruitment
+    permalink: /student_recruitment/
 ---
