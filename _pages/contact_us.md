@@ -67,7 +67,7 @@ nav: false
 }
 
 .contact-photo img {
-  max-width: 600px;
+  max-width: 300px;
   width: 100%;
   height: auto;
   border-radius: 10px;
