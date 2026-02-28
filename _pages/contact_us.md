@@ -67,7 +67,7 @@ nav: false
 }
 
 .contact-photo img {
-  max-width: 300px;   /* 限制最大宽度为300像素，可根据需要调整 */
+  max-width: 600px;   /* 限制最大宽度为300像素，可根据需要调整 */
   width: 100%;        /* 在小屏幕上自动缩小 */
   height: auto;
   border-radius: 10px;
