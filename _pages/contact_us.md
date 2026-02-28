@@ -60,14 +60,15 @@ nav: false
   text-decoration: underline;
 }
 
-/* 新增的照片样式 */
+/* 照片样式（已调整图片大小） */
 .contact-photo {
   text-align: center;
   margin: 20px 0;
 }
 
 .contact-photo img {
-  max-width: 100%;
+  max-width: 300px;   /* 限制最大宽度为300像素，可根据需要调整 */
+  width: 100%;        /* 在小屏幕上自动缩小 */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
