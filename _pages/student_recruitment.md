@@ -5,15 +5,15 @@ permalink: /student_recruitment/
 nav: false
 ---
 
-## 研究使命
+## Technologies for a sustainable future
 
 Our mission is to apply advanced ideas of robotics, AI, machine vision, remote sensing, data mining and information technology into smart agriculture.
 
-## 核心技术
+## Core Techniques
 
 The core techniques include 2D/3D image processing, multispectral/hyperspectral imaging, spectroscopy, deep learning, machine learning, digital mapping, biochemical sensing, etc.
 
-## 研究工具
+## Research Instruments
 
 The tools available for carrying out our researches are unmanned aerial vehicle, unmanned ground vehicle, video camera, multispectral camera, hyperspectral camera, DGPS, and various electrical, optical and chemical sensors.
 
