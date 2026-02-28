@@ -98,17 +98,22 @@ ninja.data = [{
           title: '实验室集体活动',
           description: "羽毛球",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2026-01-09/";
+              window.location.href = "/activities/Badminton_2026-01-09/";
             },},{id: "activities-实验室集体活动",
           title: '实验室集体活动',
           description: "羽毛球",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2026-01-16/";
+              window.location.href = "/activities/Badminton_2026-01-16/";
+            },},{id: "activities-汇智同行-共启新章-agrobot团队联欢宴",
+          title: '“汇智同行 共启新章：AgRobot团队联欢宴”',
+          description: "Annual Meeting",
+          section: "Activities",handler: () => {
+              window.location.href = "/activities/Annual_Meeting_/";
             },},{id: "activities-实验室集体活动",
           title: '实验室集体活动',
           description: "羽毛球",
           section: "Activities",handler: () => {
-              window.location.href = "/activities/2026-01-23/";
+              window.location.href = "/activities/Badminton_2026-01-23/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
