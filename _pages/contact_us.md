@@ -8,7 +8,7 @@ nav: false
 <!-- 照片区域 -->
 <div class="contact-photo">
   <img src="{{ "/assets/img/contact-header.jpg" | relative_url }}" alt="傅隆生老师" class="profile-img">
-  <p class="caption">傅隆生老师</p>
+  <p class="caption">2026年“汇智同行 共启新章”团队联欢宴合照</p>
 </div>
 
 #### 实验室地址
