@@ -11,56 +11,74 @@ nav: false
   <p class="caption">2026年“汇智同行 共启新章”团队联欢宴合照</p>
 </div>
 
-#### 实验室地址
-- **地址**：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9204室
-- **邮编**：712100
+<!-- 地址和联系方式全部改用 HTML 编写，避免 Markdown 自动链接邮箱 -->
+<div class="contact-info">
+  <h4>实验室地址</h4>
+  <ul>
+    <li><strong>地址</strong>：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9204室</li>
+    <li><strong>邮编</strong>：712100</li>
+  </ul>
 
-#### 傅隆生老师办公室地址
-- **地址**：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9404室
-- **邮编**：712100
+  <h4>傅隆生老师办公室地址</h4>
+  <ul>
+    <li><strong>地址</strong>：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9404室</li>
+    <li><strong>邮编</strong>：712100</li>
+  </ul>
 
-#### 联系方式
-- **电话**：029-87092476
-- **邮箱**：
-  - 学校邮箱：fulsh@nwafu.edu.cn
-  - 个人邮箱：longsheng.fu@outlook.com
+  <h4>联系方式</h4>
+  <ul>
+    <li><strong>电话</strong>：029-87092476</li>
+    <li><strong>邮箱</strong>：
+      <ul>
+        <li>学校邮箱：<span>fulsh@nwafu.edu.cn</span></li>
+        <li>个人邮箱：<span>longsheng.fu@outlook.com</span></li>
+      </ul>
+    </li>
+  </ul>
 
-#### 所属机构
-- **学院**：机械与电子工程学院
-- **学校**：西北农林科技大学
-- **学院官网**：https://cmee.nwafu.edu.cn
+  <h4>所属机构</h4>
+  <ul>
+    <li><strong>学院</strong>：机械与电子工程学院</li>
+    <li><strong>学校</strong>：西北农林科技大学</li>
+    <li><strong>学院官网</strong>：<span>https://cmee.nwafu.edu.cn</span></li>
+  </ul>
+</div>
 
 <style>
 /* 基础样式 */
-.contact-content {
+.contact-info {
   line-height: 1.6;
 }
 
-.contact-content h3 {
+.contact-info h4 {
   color: #2c3e50;
   border-bottom: 2px solid #3498db;
   padding-bottom: 8px;
   margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
-.contact-content ul {
+.contact-info ul {
   padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
-.contact-content li {
+.contact-info li {
   margin-bottom: 8px;
 }
 
-.contact-content a {
+.contact-info a {
   color: #2980b9;
   text-decoration: none;
 }
 
-.contact-content a:hover {
+.contact-info a:hover {
   text-decoration: underline;
 }
 
-/* 照片样式（已调整图片大小） */
+/* 照片样式 */
 .contact-photo {
   text-align: center;
   margin: 20px 0;
