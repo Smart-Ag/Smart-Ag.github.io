@@ -5,7 +5,11 @@ permalink: /contact_us/
 nav: false
 ---
 
-
+<!-- 照片区域 -->
+<div class="contact-photo">
+  <img src="{{ "/assets/img/contact-header.jpg" | relative_url }}" alt="傅隆生老师" class="profile-img">
+  <p class="caption">傅隆生老师</p>
+</div>
 
 #### 实验室地址
 - **地址**：陕西省咸阳市杨凌区西北农林科技大学北校区机械与电子工程学院9204室
@@ -25,9 +29,6 @@ nav: false
 - **学院**：机械与电子工程学院
 - **学校**：西北农林科技大学
 - **学院官网**：[https://cmee.nwafu.edu.cn]
-
----
-
 
 <style>
 /* 基础样式 */
@@ -57,5 +58,24 @@ nav: false
 
 .contact-content a:hover {
   text-decoration: underline;
+}
+
+/* 新增的照片样式 */
+.contact-photo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.caption {
+  font-style: italic;
+  color: #555;
+  margin-top: 8px;
 }
 </style>
