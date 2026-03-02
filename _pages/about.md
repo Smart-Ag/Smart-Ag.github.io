@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: 西北农林科技大学机电学院
+subtitle: 
 profile:
   align: right
   image: prof_pic.jpg
@@ -21,6 +21,11 @@ latest_posts:
   limit: 3
 ---
 
+<div style="font-family: 'Times New Roman', 'SimSun', serif;">
+  <p style="font-size: 18px; line-height: 1.8; text-indent: 2em; text-align: justify; margin-bottom: 1.5em;">
+    主要研究方向为智慧农业技术与装备，针对果园进行全程智能化生产研究，研发的猕猴桃采摘机器人、授粉机器人、果园智能测产 App 等被央视 CCTV17《我爱发明》、《超级新农人》、陕西卫视等栏目专题报道。在Computers and Electronics in Agriculture、Precision Agriculture、Biosystems Engineering、Journal of the ASABE、Journal of FieldRobotics、Journal of FoodEngineering、International Journal of Agricultural and Biological Engineering (IJABE)、农业工程学报、农业机械学报、Information Processing in Agriculture、Artificial Intelligence in Agriculture等权威期刊上发表SCI论文 40 篇（ESI高被引论文 8 篇），连续入选World top 2 % scientists（全球前 2% 科学家榜单）、爱思唯尔"中国高被引学者"榜单、中国知网高被引学者Top 1%，获中国发明专利 12 项、国际发明专利 2 项、实用新型专利 43 项、外观设计专利 1 项、软件著作权 20 余项。
+  </p>
+</div>
 
 <!-- ========== 完全自定义的4:3比例轮播组件 ========== -->
 <div class="container my-5">
