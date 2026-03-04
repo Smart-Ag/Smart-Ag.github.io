@@ -7,10 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-# News Archive
-
-Here are all my recent news, announcements, and updates, sorted by date (newest first).
-
 {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
 
 <div class="news-archive">
