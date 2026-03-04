@@ -9,15 +9,15 @@ profile:
   image_circular: false
   more_info: 
     
-selected_papers: true
+selected_papers: false
 social: false
 announcements:
-  enabled: true
-  scrollable: true
+  enabled: false
+  scrollable: false
   limit: 5
 latest_posts:
   enabled: false
-  scrollable: true
+  scrollable: false
   limit: 3
 ---
 
