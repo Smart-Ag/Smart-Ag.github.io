@@ -1,6 +1,6 @@
 ---
 layout: page
-title: News
+title: Lab News
 permalink: /news/
 description: "Latest news and announcements"
 nav: true
