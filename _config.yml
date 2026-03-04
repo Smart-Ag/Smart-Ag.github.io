@@ -156,6 +156,10 @@ collections:
     output: true
   activities:  
     output: true  
+  Scholarly Seminars:
+    output: true
+  awards:
+    output: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
