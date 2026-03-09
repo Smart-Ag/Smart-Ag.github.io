@@ -1,6 +1,30 @@
-<div class="news">
-  {% if site.data.announcements != blank %}   <!-- 改为 announcements -->
-    {% assign announcements_size = site.data.announcements | size %}   <!-- 改名 -->
+<div class="announcements">
+  <style>
+    /* 直接写在模板中的样式 */
+    .announcements {
+      font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+    }
+    .announcements th {  /* 针对所有日期单元格 */
+      font-weight: bold;
+    }
+    .announcement-title {
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- 原有代码保持不变，但可以为日期添加类名以便精确控制 -->
+  {% for item in announcements... %}
+    <tr>
+      <th scope="row" class="announcement-date" style="width: 20%; vertical-align: top;">
+        {{ item.date | date: '%b %d, %Y' }}
+      </th>
+      ...
+    </tr>
+  {% endfor %}
+</div>
+<div class="announcements">
+  {% if site.data.announcements != blank %}
+    {% assign announcements_size = site.data.announcements | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and announcements_size > 3 %}
@@ -8,7 +32,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign announcements = site.data.announcements | sort: 'date' | reverse %}   <!-- 改名 -->
+        {% assign announcements = site.data.announcements | sort: 'date' | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign announcements_limit = page.announcements.limit %}
         {% else %}
@@ -20,27 +44,27 @@
               {{ item.date | date: '%b %d, %Y' }}
             </th>
             <td>
-              <div class="news-item">   <!-- 可保留类名，也可改为 announcement-item，但样式通用 -->
-                <div class="news-header">
+              <div class="announcement-item">
+                <div class="announcement-header">
                   {% if item.link and item.link != "" %}
-                    <a class="news-title" href="{{ item.link }}" target="_blank">
+                    <a class="announcement-title" href="{{ item.link }}" target="_blank">
                       {{ item.title }}
                       <i class="fas fa-external-link-alt fa-xs ms-1"></i>
                     </a>
                   {% else %}
-                    <span class="news-title">{{ item.title }}</span>
+                    <span class="announcement-title">{{ item.title }}</span>
                   {% endif %}
                   {% if item.category %}
                     <span class="badge bg-primary ms-2">{{ item.category }}</span>
                   {% endif %}
                 </div>
                 {% if item.description %}
-                  <div class="news-description small text-muted mt-1">
+                  <div class="announcement-description small text-muted mt-1">
                     {{ item.description | truncatewords: 15 }}
                   </div>
                 {% endif %}
                 {% if item.tags and item.tags.size > 0 %}
-                  <div class="news-tags mt-1">
+                  <div class="announcement-tags mt-1">
                     {% for tag in item.tags limit: 3 %}
                       <span class="badge bg-light text-dark border me-1" style="font-size: 0.7rem;">
                         {{ tag }}
@@ -55,6 +79,6 @@
       </table>
     </div>
   {% else %}
-    <p>No announcements so far...</p>   <!-- 提示信息也可改 -->
+    <p>No announcements so far...</p>
   {% endif %}
 </div>
