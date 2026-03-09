@@ -14,7 +14,7 @@ social: false
 
 announcements:
   enabled: true
-  scrollable: false
+  scrollable: true
 
 latest_posts:
   enabled: false
