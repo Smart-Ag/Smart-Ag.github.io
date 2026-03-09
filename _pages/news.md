@@ -7,7 +7,12 @@ nav: false
 nav_order: 2
 ---
 
-{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+{% assign all_items = site.data.announcements %}
+{% assign items_with_date = all_items | where_exp: "item", "item.date" %}
+{% assign items_without_date = all_items | where_exp: "item", "item.date == nil" %}
+
+{% assign sorted_with_date = items_with_date | sort: 'date' | reverse %}
+{% assign sorted_news = sorted_with_date | concat: items_without_date %}
 
 <div class="news-archive">
   {% for item in sorted_news %}
@@ -16,10 +21,16 @@ nav_order: 2
     
     <!-- 日期和分类标签 -->
     <div class="news-header mb-3">
-      <span class="news-date badge bg-secondary">
-        <i class="fas fa-calendar-alt me-1"></i>
-        {{ item.date | date: "%B %d, %Y" }}
-      </span>
+      {% if item.date %}
+        <span class="news-date badge bg-secondary">
+          <i class="fas fa-calendar-alt me-1"></i>
+          {{ item.date | date: "%B %d, %Y" }}
+        </span>
+      {% else %}
+        <span class="news-date badge bg-secondary text-muted">
+          <i class="fas fa-calendar-alt me-1"></i> No date
+        </span>
+      {% endif %}
       
       {% if item.category %}
         <span class="news-category badge bg-primary ms-2">
@@ -41,9 +52,11 @@ nav_order: 2
     </h2>
     
     <!-- 描述 -->
-    <p class="news-description lead">
-      {{ item.description }}
-    </p>
+    {% if item.description %}
+      <p class="news-description lead">
+        {{ item.description }}
+      </p>
+    {% endif %}
     
     <!-- 详细内容（如果有） -->
     {% if item.content and item.content != "" %}
