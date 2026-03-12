@@ -147,6 +147,21 @@ ninja.data = [{
           description: "希腊雅典农业大学Spyros FOUNTAS教授",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Conferences_Spyros%20FOUNTAS%E6%95%99%E6%8E%88/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.02.09/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.03.02/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.03.08/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
