@@ -157,6 +157,11 @@ ninja.data = [{
           description: "实验室全体成员参与",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Presentions_2026.03.02/";
+            },},{id: "projects-果园全自主机器人技术的研究进展",
+          title: '果园全自主机器人技术的研究进展',
+          description: "英国哈珀亚当斯大学Fernando Auat CHEEIN教授",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Conferences_2026-03-06/";
             },},{id: "projects-实验室组会",
           title: '实验室组会',
           description: "实验室全体成员参与",
