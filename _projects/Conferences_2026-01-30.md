@@ -2,7 +2,7 @@
 layout: page
 title: 人工智能作物状态监测的研究进展
 description: 希腊雅典农业大学Spyros FOUNTAS教授
-img: assets/img/Conferences/2026_01_09-1.jpg
+img: assets/img/Conferences/2026_01_30-1.jpg
 importance: 1
 category: Conferences
 related_publications: false
@@ -44,7 +44,7 @@ date: 2026-01-30
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/Spyros_FOUNTAS_1.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Conferences/2026_01_30-1.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div>     
@@ -55,7 +55,7 @@ date: 2026-01-30
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/Spyros_FOUNTAS_2.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Conferences/2026_01_30-2.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div>     
