@@ -2,7 +2,7 @@
 layout: page
 title: 农工综合体中大语言模型参数优化与高效微调应用进展
 description: 俄罗斯联邦金融大学Petr NIKITIN副教授
-img: assets/img/scholarly_photos/Petr_NIKITIN.jpg
+img: assets/img/Conferences/Petr_NIKITIN.jpg
 importance: 1
 category: Conferences
 related_publications: false
@@ -44,7 +44,7 @@ date: 2026-01-18
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/Petr_NIKITIN.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Conferences/Petr_NIKITIN.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div>     
