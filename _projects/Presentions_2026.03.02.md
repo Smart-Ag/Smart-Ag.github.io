@@ -2,7 +2,7 @@
 layout: page
 title: 实验室组会
 description: 实验室全体成员参与
-img: assets/img/scholarly_photos/2026_03_02.jpg
+img: assets/img/Presentations/2026_03_02.jpg
 importance: 1
 category: Presentations
 related_publications: false
@@ -44,7 +44,7 @@ date: 2026-03-02
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/2026_01_25.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_01_25.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div> 
