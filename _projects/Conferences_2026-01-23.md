@@ -2,7 +2,7 @@
 layout: page
 title: 智慧农业中差异性与数字化权衡的研究进展
 description: 意大利帕多瓦大学Francesco MARINELLO教授
-img: assets/img/scholarly_photos/Francesco_MARINELLO.jpg
+img: assets/img/Conferences/2026_01_23-1.jpg
 importance: 1
 category: Conferences
 related_publications: false
@@ -44,7 +44,7 @@ date: 2026-01-23
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/Francesco_MARINELLO.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Conferences/2026_01_23-1.png" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div>     
@@ -55,7 +55,7 @@ date: 2026-01-23
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/scholarly_photos/Francesco_MARINELLO_1.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Conferences/2026_01_23-2.png" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div>     

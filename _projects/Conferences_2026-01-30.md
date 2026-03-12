@@ -2,7 +2,7 @@
 layout: page
 title: 人工智能作物状态监测的研究进展
 description: 希腊雅典农业大学Spyros FOUNTAS教授
-img: assets/img/scholarly_photos/Spyros_FOUNTAS_1.jpg
+img: assets/img/Conferences/2026_01_09-1.jpg
 importance: 1
 category: Conferences
 related_publications: false
