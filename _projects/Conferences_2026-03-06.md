@@ -2,7 +2,7 @@
 layout: page
 title: 果园全自主机器人技术的研究进展
 description: 英国哈珀亚当斯大学Fernando Auat CHEEIN教授
-img: assets/img/Conferences/2026_03_06-1.jpg
+img: assets/img/Conferences/2026_03_06-1.png
 importance: 1
 category: Conferences
 related_publications: false
