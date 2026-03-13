@@ -23,7 +23,7 @@ latest_posts:
 ---
 
 <div style="font-family: 'Times New Roman', 'SimSun', serif;">
-  <p style="font-size: 18px; line-height: 1.8; text-indent: 2em; text-align: justify; margin-bottom: 1.5em;">
+  <p style="font-size: 20px; line-height: 1.8; text-indent: 2em; text-align: justify; margin-bottom: 1.5em;">
     Our mission is to apply advanced ideas of robotics, AI, machine vision, remote sensing, data mining and information technology into smart agriculture. The core techniques include 2D/3D image processing, multispectral/hyperspectral imaging, spectroscopy, deep learning, machine learning, digital mapping, biochemical sensing, etc. The tools available for carrying out our researches are unmanned aerial vehicle, unmanned ground vehicle, video camera, multispectral camera, hyperspectral camera, DGPS, and various electrical, optical and chemical sensors.
   </p>
 </div>
