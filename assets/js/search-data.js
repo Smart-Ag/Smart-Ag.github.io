@@ -98,7 +98,7 @@ ninja.data = [{
           section: "Activities",handler: () => {
               window.location.href = "/activities/Badminton_2026-01-16/";
             },},{id: "activities-汇智同行-共启新章-agrobot团队联欢宴",
-          title: '“汇智同行 共启新章：AgRobot团队联欢宴”',
+          title: '汇智同行 共启新章：AgRobot团队联欢宴',
           description: "Annual Meeting",
           section: "Activities",handler: () => {
               window.location.href = "/activities/Annual_Meeting_/";
