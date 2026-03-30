@@ -44,7 +44,7 @@ date: 2026-03-02
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_01_25.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_03_02.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div> 
