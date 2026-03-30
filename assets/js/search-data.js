@@ -167,6 +167,11 @@ ninja.data = [{
           description: "实验室全体成员参与",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Presentions_2026.03.08/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.03.26/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
