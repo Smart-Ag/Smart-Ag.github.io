@@ -2,11 +2,11 @@
 layout: page
 title: 实验室组会
 description: 实验室全体成员参与
-img: assets/img/Presentations/2026_03_08.jpg
+img: assets/img/Presentations/2026_03_26.jpg
 importance: 1
 category: Presentations
 related_publications: false
-date: 2026-03-08
+date: 2026-03-26
 ---
 
 <!-- 仅新增标题字体大小样式，其余样式保留不变 -->
