@@ -1,4 +1,17 @@
 <div class="announcements">
+  <style>
+    .announcements {
+      font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+    }
+    .announcements table {
+      font-family: inherit;
+    }
+    .announcement-title {
+      font-weight: normal;
+      font-family: inherit;
+    }
+  </style>
+
   {% if site.data.announcements != blank %}
     {% assign announcements = site.data.announcements %}   <!-- 不排序，保持原顺序 -->
     <div class="table-responsive">
@@ -9,7 +22,7 @@
               {% if item.date %}
                 {{ item.date | date: '%b %d, %Y' }}
               {% else %}
-                <!-- 没有日期，留空，不显示任何文字 -->
+                <!-- 无日期则留空，不显示任何文字 -->
               {% endif %}
             </th>
             <td>
