@@ -9,7 +9,7 @@
               {% if item.date %}
                 {{ item.date | date: '%b %d, %Y' }}
               {% else %}
-                <span class="text-muted">近期</span>
+                <!-- 没有日期，留空，不显示任何文字 -->
               {% endif %}
             </th>
             <td>
