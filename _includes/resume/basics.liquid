@@ -1,21 +1,59 @@
-<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
-  {% assign skip_basics = 'image,profiles,location' | split: ',' %}
-  {% for content in data[1] %}
-    {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
-    %}
-      {% continue %}
+{% if site.data.resume.basics %}
+<div class="row cv-basics">
+  <!-- 左侧：个人信息 -->
+  <div class="col-md-8">
+    <div class="cv-basics-info">
+      <h1 class="cv-name">{{ site.data.resume.basics.name }}</h1>
+      <div class="cv-label">{{ site.data.resume.basics.label }}</div>
+      
+      {% if site.data.resume.basics.email %}
+      <div class="cv-contact">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:{{ site.data.resume.basics.email }}">{{ site.data.resume.basics.email }}</a>
+      </div>
+      {% endif %}
+      
+      {% if site.data.resume.basics.phone %}
+      <div class="cv-contact">
+        <i class="fas fa-phone"></i>
+        <span>{{ site.data.resume.basics.phone }}</span>
+      </div>
+      {% endif %}
+      
+      {% if site.data.resume.basics.location %}
+        {% if site.data.resume.basics.location.address %}
+        <div class="cv-contact">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>{{ site.data.resume.basics.location.address }}</span>
+        </div>
+        {% endif %}
+      {% endif %}
+      
+      {% if site.data.resume.basics.url %}
+      <div class="cv-contact">
+        <i class="fas fa-globe"></i>
+        <a href="{{ site.data.resume.basics.url }}" target="_blank">{{ site.data.resume.basics.url }}</a>
+      </div>
+      {% endif %}
+      
+      {% if site.data.resume.basics.summary %}
+      <div class="cv-summary mt-3">
+        <p>{{ site.data.resume.basics.summary }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  
+  <!-- 右侧：照片 -->
+  <div class="col-md-4 text-end">
+    {% if site.data.resume.basics.image %}
+    <div class="cv-profile-image">
+      <img src="{{ site.data.resume.basics.image | relative_url }}" 
+           alt="Profile Image" 
+           class="img-fluid rounded-circle"
+           style="max-width: 180px; width: 100%;">
+    </div>
     {% endif %}
-
-    <tr>
-      <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
-      </td>
-      <td class="p-1 pl-2 font-weight-light text">
-        <!-- 仅展示纯文本，无任何链接 -->
-        {{ content[1] }}
-      </td>
-    </tr>
-  {% endfor %}
-</table>
+  </div>
+</div>
+{% endif %}
