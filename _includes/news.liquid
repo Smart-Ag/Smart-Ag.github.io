@@ -10,15 +10,37 @@
       font-weight: normal;
       font-family: inherit;
     }
+    
+    /* ========== 新增：让 Lab News 左顶格显示 ========== */
+    .announcements .table td,
+    .announcements .table th {
+      padding-left: 0 !important;
+      padding-right: 0.5rem !important;
+    }
+    
+    .announcements .table th {
+      width: 0;
+      min-width: 0;
+      padding-right: 1rem !important;
+    }
+    
+    /* 移动端适配 */
+    @media (max-width: 768px) {
+      .announcements .table td,
+      .announcements .table th {
+        padding-left: 0 !important;
+        padding-right: 0.25rem !important;
+      }
+    }
   </style>
 
   {% if site.data.announcements != blank %}
-    {% assign announcements = site.data.announcements %}   <!-- 不排序，保持原顺序 -->
+    {% assign announcements = site.data.announcements %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         {% for item in announcements %}
           <tr>
-            <th scope="row" style="width: 20%; vertical-align: top;">
+            <th scope="row" style="width: auto; vertical-align: top; white-space: nowrap;">
               {% if item.date %}
                 {{ item.date | date: '%b %d, %Y' }}
               {% else %}
