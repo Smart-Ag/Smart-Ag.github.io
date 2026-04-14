@@ -3,95 +3,540 @@ layout: default
 ---
 
 <div class="post">
-  <!-- ========== 第一部分：滑动图片集（轮播图） ========== -->
-  <div class="carousel-container mb-5">
-    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-      <!-- 指示点 -->
-      <div class="carousel-indicators">
-        {% for item in site.data.carousel_images limit: 5 %}
-          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="{{ forloop.index0 }}" 
-            {% if forloop.first %}class="active" aria-current="true"{% endif %} 
-            aria-label="Slide {{ forloop.index }}"></button>
-        {% endfor %}
-      </div>
-
-      <!-- 轮播图片 -->
-      <div class="carousel-inner rounded-4 shadow">
-        {% for item in site.data.carousel_images limit: 5 %}
-          <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <img src="{{ item.image | relative_url }}" class="d-block w-100" alt="{{ item.alt | default: 'Slide image' }}" 
-                 style="height: 400px; object-fit: cover;">
-            {% if item.caption %}
-              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-                <p class="mb-0 text-white">{{ item.caption }}</p>
+  <!-- ========== 第一部分：自定义轮播组件 ========== -->
+  <div class="carousel-wrapper">
+    <div class="container my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          
+          {% assign carousel_items = site.data.carousel %}
+          {% assign total_items = carousel_items | size %}
+          
+          {% if total_items > 0 %}
+          <div id="customCarousel" class="custom-carousel">
+            <!-- 轮播轨道 -->
+            <div class="carousel-track">
+              {% for item in carousel_items %}
+              <div class="carousel-slide {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
+                <div class="image-container-4-3">
+                  <img src="/assets/img/carousel/{{ item.image }}" 
+                       alt="{{ item.alt }}">
+                </div>
               </div>
-            {% endif %}
+              {% endfor %}
+            </div>
+            
+            <!-- 左右导航按钮 -->
+            <button class="carousel-btn prev-btn" aria-label="上一张图片">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6"/>
+              </svg>
+            </button>
+            <button class="carousel-btn next-btn" aria-label="下一张图片">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </button>
+            
+            <!-- 指示器 -->
+            <div class="carousel-indicators">
+              {% for item in carousel_items %}
+              <button class="indicator {% if forloop.first %}active{% endif %}" 
+                      data-index="{{ forloop.index0 }}"
+                      aria-label="跳转到图片 {{ forloop.index }}">
+              </button>
+              {% endfor %}
+            </div>
+            
+            <!-- 当前图片计数器 -->
+            <div class="carousel-counter">
+              <span id="currentSlide">1</span> / <span id="totalSlides">{{ total_items }}</span>
+            </div>
           </div>
-        {% endfor %}
+          {% else %}
+          <!-- 无图片时的占位符 -->
+          <div class="text-center py-5 border rounded bg-light">
+            <div class="image-container-4-3">
+              <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                <i class="fas fa-image fa-3x text-muted mb-3"></i>
+                <p class="text-muted mb-0">暂无展示图片</p>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          
+        </div>
       </div>
-
-      <!-- 左右控制按钮 -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
 
   <!-- ========== 第二部分：Technologies for a sustainable future ========== -->
-  <div class="technologies-section mb-5">
-    <h2 class="section-title">{{ page.technologies_title | default: "Technologies for a sustainable future" }}</h2>
-    <div class="technologies-content">
-      {{ content }}
+  <div class="technologies-section">
+    <div class="container">
+      <h2 class="section-title">{{ page.technologies_title | default: "Technologies for a sustainable future" }}</h2>
+      <div class="technologies-content">
+        {{ content }}
+      </div>
     </div>
   </div>
 
   <!-- ========== 第三部分：Lab News ========== -->
   <div class="news-section">
-    <h2 class="section-title">
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">
-        {{ page.news_title | default: "Lab News" }}
-      </a>
-    </h2>
-    {% if page.announcements and page.announcements.enabled %}
-      {% include news.liquid limit=true %}
-    {% else %}
-      <p>No news available.</p>
-    {% endif %}
+    <div class="container">
+      <h2 class="section-title">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">
+          {{ page.news_title | default: "Lab News" }}
+        </a>
+      </h2>
+      {% if page.announcements and page.announcements.enabled %}
+        {% include news.liquid limit=true %}
+      {% else %}
+        <p>No news available.</p>
+      {% endif %}
+    </div>
   </div>
 </div>
 
-<!-- 添加自定义样式 -->
+<!-- 自定义轮播样式 -->
 <style>
+/* 轮播容器 */
+.custom-carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
+}
+
+/* 轮播轨道 */
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+/* 轮播幻灯片 */
+.carousel-slide {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: relative;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+/* 4:3比例图片容器 */
+.image-container-4-3 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* 4:3比例 (3/4 = 0.75) */
+  height: 0;
+  background: #f8f9fa;
+}
+
+.image-container-4-3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* 导航按钮 */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.prev-btn {
+  left: 16px;
+}
+
+.next-btn {
+  right: 16px;
+}
+
+.carousel-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* 指示器 */
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+  padding: 0 16px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: white;
+  transform: scale(1.2);
+  border-color: white;
+}
+
+.indicator:hover {
+  background: rgba(255, 255, 255, 0.6);
+  transform: scale(1.1);
+}
+
+/* 计数器 */
+.carousel-counter {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* 第二部分和第三部分样式 */
+.technologies-section,
+.news-section {
+  position: relative;
+  background-color: #ffffff;
+  padding: 1rem 0 2rem 0;
+}
+
+.section-title {
+  font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eaeaea;
+  color: #2c3e50;
+}
+
+.technologies-content {
+  font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .prev-btn {
+    left: 8px;
+  }
+  
+  .next-btn {
+    right: 8px;
+  }
+  
+  .carousel-indicators {
+    bottom: 15px;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .carousel-counter {
+    bottom: 15px;
+    right: 15px;
+    font-size: 13px;
+    padding: 3px 10px;
+  }
+  
   .section-title {
-    font-family: 'Times New Roman', 'SimSun', '宋体', serif;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #eaeaea;
-    color: #2c3e50;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-btn {
+    width: 36px;
+    height: 36px;
   }
   
-  .technologies-content {
-    font-family: 'Times New Roman', 'SimSun', '宋体', serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
+  .carousel-btn svg {
+    width: 14px;
+    height: 14px;
   }
   
-  .carousel-container {
-    margin-top: -1rem;
+  .carousel-indicators {
+    bottom: 12px;
+    gap: 6px;
   }
   
-  /* 响应式调整：手机端轮播图高度 */
-  @media (max-width: 768px) {
-    .carousel-inner img {
-      height: 250px !important;
+  .indicator {
+    width: 8px;
+    height: 8px;
+    border-width: 1.5px;
+  }
+}
+</style>
+
+<!-- 自定义轮播脚本 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('🚀 开始初始化自定义轮播...');
+  
+  const carousel = document.getElementById('customCarousel');
+  if (!carousel) {
+    console.warn('⚠️ 未找到轮播元素，跳过初始化');
+    return;
+  }
+  
+  const track = carousel.querySelector('.carousel-track');
+  const slides = carousel.querySelectorAll('.carousel-slide');
+  const prevBtn = carousel.querySelector('.prev-btn');
+  const nextBtn = carousel.querySelector('.next-btn');
+  const indicators = carousel.querySelectorAll('.indicator');
+  const currentSlideSpan = document.getElementById('currentSlide');
+  const totalSlidesSpan = document.getElementById('totalSlides');
+  
+  if (!track || slides.length === 0) {
+    console.warn('⚠️ 轮播元素不完整，跳过初始化');
+    return;
+  }
+  
+  console.log(`✅ 找到 ${slides.length} 张图片`);
+  
+  let currentIndex = 0;
+  let isTransitioning = false;
+  let autoPlayInterval = null;
+  const transitionDuration = 500;
+  const autoPlayDelay = 3000;
+  
+  function updateCarousel() {
+    if (isTransitioning) return;
+    
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+    
+    slides.forEach((slide, index) => {
+      slide.classList.toggle('active', index === currentIndex);
+    });
+    
+    indicators.forEach((indicator, index) => {
+      indicator.classList.toggle('active', index === currentIndex);
+    });
+    
+    if (currentSlideSpan) {
+      currentSlideSpan.textContent = currentIndex + 1;
+    }
+    
+    if (totalSlidesSpan && !totalSlidesSpan.textContent) {
+      totalSlidesSpan.textContent = slides.length;
+    }
+    
+    isTransitioning = true;
+    setTimeout(() => {
+      isTransitioning = false;
+    }, transitionDuration);
+    
+    console.log(`🔍 显示图片 ${currentIndex + 1}/${slides.length}`);
+  }
+  
+  function nextSlide() {
+    if (isTransitioning) return;
+    
+    if (currentIndex >= slides.length - 1) {
+      currentIndex = 0;
+    } else {
+      currentIndex++;
+    }
+    
+    updateCarousel();
+    restartAutoPlay();
+  }
+  
+  function prevSlide() {
+    if (isTransitioning) return;
+    
+    if (currentIndex <= 0) {
+      currentIndex = slides.length - 1;
+    } else {
+      currentIndex--;
+    }
+    
+    updateCarousel();
+    restartAutoPlay();
+  }
+  
+  function goToSlide(index) {
+    if (isTransitioning || index < 0 || index >= slides.length || index === currentIndex) {
+      return;
+    }
+    
+    currentIndex = index;
+    updateCarousel();
+    restartAutoPlay();
+  }
+  
+  function startAutoPlay() {
+    stopAutoPlay();
+    autoPlayInterval = setInterval(nextSlide, autoPlayDelay);
+    console.log('▶️ 自动播放已启动');
+  }
+  
+  function stopAutoPlay() {
+    if (autoPlayInterval) {
+      clearInterval(autoPlayInterval);
+      autoPlayInterval = null;
+      console.log('⏸️ 自动播放已停止');
     }
   }
-</style>
+  
+  function restartAutoPlay() {
+    stopAutoPlay();
+    startAutoPlay();
+  }
+  
+  function bindEvents() {
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        prevSlide();
+      });
+    }
+    
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        nextSlide();
+      });
+    }
+    
+    indicators.forEach((indicator, index) => {
+      indicator.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        goToSlide(index);
+      });
+    });
+    
+    document.addEventListener('keydown', function(e) {
+      const activeElement = document.activeElement;
+      const isInput = activeElement.tagName === 'INPUT' || 
+                      activeElement.tagName === 'TEXTAREA' || 
+                      activeElement.isContentEditable;
+      
+      if (isInput) return;
+      
+      switch(e.key) {
+        case 'ArrowLeft':
+          prevSlide();
+          e.preventDefault();
+          break;
+        case 'ArrowRight':
+          nextSlide();
+          e.preventDefault();
+          break;
+      }
+    });
+    
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const swipeThreshold = 50;
+    
+    carousel.addEventListener('touchstart', function(e) {
+      touchStartX = e.touches[0].clientX;
+      stopAutoPlay();
+    }, { passive: true });
+    
+    carousel.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].clientX;
+      const diff = touchStartX - touchEndX;
+      
+      if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+          nextSlide();
+        } else {
+          prevSlide();
+        }
+      }
+      
+      setTimeout(() => {
+        startAutoPlay();
+      }, 1000);
+    }, { passive: true });
+    
+    carousel.addEventListener('mouseenter', stopAutoPlay);
+    carousel.addEventListener('mouseleave', startAutoPlay);
+  }
+  
+  function initCarousel() {
+    if (slides.length > 0) {
+      updateCarousel();
+    }
+    bindEvents();
+    startAutoPlay();
+    console.log('✅ 轮播初始化完成');
+  }
+  
+  initCarousel();
+  
+  window.carouselControls = {
+    nextSlide,
+    prevSlide,
+    goToSlide,
+    startAutoPlay,
+    stopAutoPlay
+  };
+  
+  console.log('🎉 自定义轮播组件已完全加载');
+});
+</script>

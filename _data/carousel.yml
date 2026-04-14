@@ -1,0 +1,13 @@
+# 轮播图图片配置
+# 图片存放在 assets/img/carousel/ 文件夹下
+
+- image: /assets/img/carousel/slide1.png
+
+
+- image: /assets/img/carousel/slide2.png
+
+
+- image: /assets/img/carousel/slide3.jpg
+- image: /assets/img/carousel/slide4.png
+- image: /assets/img/carousel/slide5.jpg
+
