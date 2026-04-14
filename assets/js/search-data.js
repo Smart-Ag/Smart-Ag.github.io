@@ -107,11 +107,6 @@ ninja.data = [{
           description: "羽毛球",
           section: "Activities",handler: () => {
               window.location.href = "/activities/Badminton_2026-01-23/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
             },},{id: "projects-ai与机器人赋能特色作物管理技术及研究进展",
           title: 'AI与机器人赋能特色作物管理技术及研究进展',
           description: "美国佛罗里达大学Yiannis AMPATZIDIS教授",
