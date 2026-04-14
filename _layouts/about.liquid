@@ -1,80 +1,97 @@
 ---
 layout: default
 ---
+
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+  <!-- ========== 第一部分：滑动图片集（轮播图） ========== -->
+  <div class="carousel-container mb-5">
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <!-- 指示点 -->
+      <div class="carousel-indicators">
+        {% for item in site.data.carousel_images limit: 5 %}
+          <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="{{ forloop.index0 }}" 
+            {% if forloop.first %}class="active" aria-current="true"{% endif %} 
+            aria-label="Slide {{ forloop.index }}"></button>
+        {% endfor %}
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <!-- 轮播图片 -->
+      <div class="carousel-inner rounded-4 shadow">
+        {% for item in site.data.carousel_images limit: 5 %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="{{ item.image | relative_url }}" class="d-block w-100" alt="{{ item.alt | default: 'Slide image' }}" 
+                 style="height: 400px; object-fit: cover;">
+            {% if item.caption %}
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                <p class="mb-0 text-white">{{ item.caption }}</p>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
 
-    <!-- News -->
+      <!-- 左右控制按钮 -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ========== 第二部分：Technologies for a sustainable future ========== -->
+  <div class="technologies-section mb-5">
+    <h2 class="section-title">{{ page.technologies_title | default: "Technologies for a sustainable future" }}</h2>
+    <div class="technologies-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- ========== 第三部分：Lab News ========== -->
+  <div class="news-section">
+    <h2 class="section-title">
+      <a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">
+        {{ page.news_title | default: "Lab News" }}
+      </a>
+    </h2>
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
       {% include news.liquid limit=true %}
+    {% else %}
+      <p>No news available.</p>
     {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
+  </div>
 </div>
+
+<!-- 添加自定义样式 -->
+<style>
+  .section-title {
+    font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eaeaea;
+    color: #2c3e50;
+  }
+  
+  .technologies-content {
+    font-family: 'Times New Roman', 'SimSun', '宋体', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .carousel-container {
+    margin-top: -1rem;
+  }
+  
+  /* 响应式调整：手机端轮播图高度 */
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      height: 250px !important;
+    }
+  }
+</style>
