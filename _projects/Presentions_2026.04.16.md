@@ -2,7 +2,7 @@
 layout: page
 title: 实验室组会
 description: 实验室全体成员参与
-img: assets/img/Presentations/2026_04_16.jpg
+img: assets/img/Presentations/2026_04_16.png
 importance: 1
 category: Presentations
 related_publications: false
