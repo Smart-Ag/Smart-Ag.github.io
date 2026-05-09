@@ -58,55 +58,119 @@ horizontal: false
     margin-right: 0 !important;
   }
 
-  /* ----- 左侧锚点导航栏样式 ----- */
+  /* ----- 左侧锚点导航栏样式（现代化设计）----- */
   .side-nav {
     position: fixed;
-    left: 20px;
+    left: 30px;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 12px;
-    padding: 16px 0;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 
+      0 8px 32px rgba(0, 0, 0, 0.08),
+      0 2px 8px rgba(0, 0, 0, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
     z-index: 1000;
-    min-width: 140px;
+    min-width: 160px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  /* 导航栏标题 */
+  .side-nav .nav-title {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 16px 8px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .side-nav ul {
     list-style: none;
-    padding: 0;
+    padding: 4px 0;
     margin: 0;
   }
 
   .side-nav li {
-    margin: 0;
+    margin: 2px 4px;
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   .side-nav a {
-    display: block;
-    padding: 12px 20px;
-    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    color: #555;
     text-decoration: none;
     font-size: 14px;
-    transition: all 0.3s ease;
-    border-left: 3px solid transparent;
+    font-weight: 500;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
   }
 
-  .side-nav a:hover {
-    background: #f5f5f5;
-    border-left-color: #007bff;
-    color: #007bff;
+  /* 图标装饰 */
+  .side-nav a::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #ddd;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.25s ease;
   }
 
-  .side-nav a.active {
-    background: #e8f4fd;
-    border-left-color: #007bff;
-    color: #007bff;
-    font-weight: 600;
+  .side-nav li:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+    transform: translateX(2px);
+  }
+
+  .side-nav li:hover a {
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .side-nav li:hover a::before {
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+
+  /* 当前激活项 */
+  .side-nav li.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+  }
+
+  .side-nav li.active a {
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .side-nav li.active a::before {
+    background: #fff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+
+  /* 底部装饰 */
+  .side-nav::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 20%;
+    right: 20%;
+    height: 8px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 50%;
+    filter: blur(8px);
   }
 
   /* 响应式调整：小屏幕隐藏侧边导航 */
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .side-nav {
       display: none;
     }
@@ -115,6 +179,7 @@ horizontal: false
 
 <!-- 左侧锚点导航栏 -->
 <div class="side-nav">
+  <h4 class="nav-title">Quick Nav</h4>
   <ul>
     <li><a href="#Presentations">Presentations</a></li>
     <li><a href="#Conferences">Conferences</a></li>
