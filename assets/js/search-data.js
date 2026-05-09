@@ -167,6 +167,21 @@ ninja.data = [{
           description: "实验室全体成员参与",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Presentions_2026.03.26/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.04.02/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.04.16/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.05.06/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
