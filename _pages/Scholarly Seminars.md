@@ -57,7 +57,69 @@ horizontal: false
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+
+  /* ----- 左侧锚点导航栏样式 ----- */
+  .side-nav {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 16px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 140px;
+  }
+
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .side-nav li {
+    margin: 0;
+  }
+
+  .side-nav a {
+    display: block;
+    padding: 12px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+  }
+
+  .side-nav a:hover {
+    background: #f5f5f5;
+    border-left-color: #007bff;
+    color: #007bff;
+  }
+
+  .side-nav a.active {
+    background: #e8f4fd;
+    border-left-color: #007bff;
+    color: #007bff;
+    font-weight: 600;
+  }
+
+  /* 响应式调整：小屏幕隐藏侧边导航 */
+  @media (max-width: 768px) {
+    .side-nav {
+      display: none;
+    }
+  }
 </style>
+
+<!-- 左侧锚点导航栏 -->
+<div class="side-nav">
+  <ul>
+    <li><a href="#Presentations">Presentations</a></li>
+    <li><a href="#Conferences">Conferences</a></li>
+  </ul>
+</div>
 
 <!-- 页面主要内容（沿用之前的 projects 布局） -->
 <div class="projects">
