@@ -182,6 +182,11 @@ ninja.data = [{
           description: "实验室全体成员参与",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Presentions_2026.05.06/";
+            },},{id: "projects-智慧农业ai技术的研究进展",
+          title: '智慧农业AI技术的研究进展',
+          description: "巴西农业研究公司数字农业中心Jayme Garcia Arnal BARBEDO研究员",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Conferences_2026-05-07/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
