@@ -187,6 +187,16 @@ ninja.data = [{
           description: "巴西农业研究公司数字农业中心Jayme Garcia Arnal BARBEDO研究员",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Conferences_2026-05-07/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.05.14/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.05.24/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
