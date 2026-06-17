@@ -1,12 +1,45 @@
 # _data/awards.yml
+# 2026年奖项
 
+- title: "Design of a laser-based clamping endeflector for kiwifruit summer pinching under dynamic field conditions"
+  type: "学生"
+  year: 2025
+  month: 8
+  level: 1
+  level_name: "一等奖"
+  competition: "全国大学生智能农业装备创新大赛"
+  participant: "Bryan Gilbert Murengami, Guo Wen Hao, Lamin L. Janneh"
+  supervisor: "Fu Longsheng"
 
+- title: "猕猴桃双臂协同精准静电对靶授粉机器人"
+  type: "学生"
+  year: 2025
+  month: 8
+  level: 1
+  level_name: "一等奖"
+  competition: "全国大学生智能农业装备创新大赛"
+  participant: "家博，马小钰，魏欣"
+  supervisor: "李瑞"
 
+- title: "基于远近景相机协同定位的双臂猕猴桃采摘机器人"
+  type: "学生"
+  year: 2025
+  month: 8
+  level: 2
+  level_name: "二等奖"
+  competition: "全国大学生智能农业装备创新大赛"
+  participant: "龚其林，牛世奥，黄俊才，黄琦宸，赵志广"
+  supervisor: "傅隆生"
 
-
-
-
-
+- title: "基于多目标视觉感知的鲜香自动定向与精准去核装置"
+  type: "学生"
+  year: 2025
+  month: 8
+  level: 2
+  level_name: "二等奖"
+  competition: "全国大学生智能农业装备创新大赛"
+  participant: "罗睿超，杨晓鹏，李国通，谢加庆，毛吾兰"
+  supervisor: "江爱莲"
 
 # 2025年奖项
 - title: "基于果枝状态与力杠杆分离的猕猴桃疏果机器人"
