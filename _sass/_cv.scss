@@ -218,3 +218,36 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+/*****************************
+ * Awards styles
+ *****************************/
+
+.award-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.award-title {
+  font-weight: 900 !important;
+  cursor: default;
+  color: var(--global-text-color);
+  margin-bottom: 0.25rem;
+}
+
+.award-awarder {
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  opacity: 0.8;
+  margin-bottom: 0.15rem;
+}
+
+.award-summary {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--global-text-color);
+  opacity: 0.7;
+}
