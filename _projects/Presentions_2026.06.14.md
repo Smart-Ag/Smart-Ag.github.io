@@ -2,11 +2,11 @@
 layout: page
 title: 实验室组会
 description: 实验室全体成员参与
-img: assets/img/Presentations/2026_04_16.png
+img: assets/img/Presentations/2026_06_14.jpg
 importance: 1
 category: Presentations
 related_publications: false
-date: 2026-04-16
+date: 2026-06-14
 ---
 
 <!-- 仅新增标题字体大小样式，其余样式保留不变 -->
@@ -36,7 +36,7 @@ date: 2026-04-16
 
 <!-- 原有结构完全保留，仅包裹类名 -->
 <div class="project-main-text">
-    今天晚上，我们进行了研究生的每周例会，主要解决大家所遇到的困难，大家一起探讨解决问题，明确接下来的研究内容与方向。
+    今天下午，我们进行了研究生的每周例会，主要解决大家所遇到的困难，大家一起探讨解决问题，明确接下来的研究内容与方向。
 </div>
 
 <!-- 新增image-container类，为图片添加顶部间距 -->
@@ -44,7 +44,7 @@ date: 2026-04-16
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
-                {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_04_16.png" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
+                {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_06_14.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
     </div> 
