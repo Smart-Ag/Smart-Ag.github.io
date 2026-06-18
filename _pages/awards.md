@@ -372,44 +372,44 @@ nav_order: 6
   white-space: nowrap;
 }
 
-/* 等级颜色配置 */
+/* 等级颜色配置 - 经典学术风格 */
 .level-0 {
-  background: linear-gradient(135deg, #ffd700, #ff9800);
-  color: #856404;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #8B4513;
 }
 
 .level-1 {
-  background: linear-gradient(135deg, #dc3545, #c82333);
-  color: white;
+  background: linear-gradient(135deg, #FFFFFF, #C0C0C0);
+  color: #333333;
 }
 
 .level-2 {
-  background: linear-gradient(135deg, #fd7e14, #e9690c);
+  background: linear-gradient(135deg, #CD7F32, #B87333);
   color: white;
 }
 
 .level-3 {
-  background: linear-gradient(135deg, #17a2b8, #138496);
+  background: linear-gradient(135deg, #4CAF50, #388E3C);
   color: white;
 }
 
 .level-4 {
-  background: linear-gradient(135deg, #28a745, #1e7e34);
+  background: linear-gradient(135deg, #2196F3, #1976D2);
   color: white;
 }
 
 .level-5 {
-  background: linear-gradient(135deg, #6f42c1, #59359a);
+  background: linear-gradient(135deg, #9C27B0, #7B1FA2);
   color: white;
 }
 
 .level-6 {
-  background: linear-gradient(135deg, #e83e8c, #d63384);
+  background: linear-gradient(135deg, #FF5722, #E64A19);
   color: white;
 }
 
 .level-7 {
-  background: linear-gradient(135deg, #9e9e9e, #757575);
+  background: linear-gradient(135deg, #9E9E9E, #757575);
   color: white;
 }
 
