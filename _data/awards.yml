@@ -1,13 +1,6 @@
 # _data/awards.yml
 # 2026年奖项
 
-
-
-
-
-
-
-
 - title: "Design of a laser-based clamping endeflector for kiwifruit summer pinching under dynamic field conditions"
   type: "学生"
   year: 2026
@@ -52,18 +45,25 @@
 - title: "入选爱思唯尔中国高被引学者榜单"
   type: "导师"
   year: 2026
-  month: 1
+  month: 3
   level: 0
   level_name: 
   organization: "爱思唯尔"
   note: "傅隆生教授入选“爱思唯尔2025中国高被引学者”榜单"
 
 
+- title: "入选2025全国高被引学者TOP1%榜单"
+  type: "导师"
+  year: 2026
+  month: 1
+  level: 0
+  level_name: 
+  organization: "中国科学文献计量评价研究中心"
+  note: "傅隆生教授入选“2025全国高被引学者TOP1%”榜单"
+
+
 
 # 2025年奖项
-
-
-
 
 - title: "入选爱思唯尔中国高被引学者榜单"
   type: "导师"
@@ -75,7 +75,7 @@
   note: "傅隆生教授入选“爱思唯尔2024中国高被引学者”榜单"
 
 
-- title: "入选爱思唯尔中国高被引学者榜单"
+- title: "入选2024中国知网高被引学者TOP1%榜单"
   type: "导师"
   year: 2025
   month: 1
@@ -83,9 +83,6 @@
   level_name: 
   organization: "中国科学文献计量评价研究中心"
   note: "傅隆生教授入选“2024中国知网高被引学者TOP1%”榜单"
-
-
-
 
 - title: "基于果枝状态与力杠杆分离的猕猴桃疏果机器人"
   type: "学生"
