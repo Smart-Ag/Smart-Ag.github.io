@@ -22,8 +22,8 @@ faculty:
     title: "讲师"
     degree: "博士"
     photo: "/assets/img/members/jal.jpg"
-    email: ""
-    research_interest: "导航"
+    email: "jiangailian2025@nwafu.edu.cn"
+    research_interest: "农业机器人自主导航技术"
 
 # 在读学生
 current:
