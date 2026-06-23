@@ -28,11 +28,6 @@ faculty:
 # 在读学生
 current:
   # 博士研究生
-  - year: "2022级"
-    name: "毛吾兰"
-    degree: "博士研究生"
-    photo: "/assets/img/members/mwl.jpg"
-    research: ""
   
   - year: "2022级"
     name: "刘小娟"
@@ -88,54 +83,6 @@ current:
     photo: "/assets/img/members/Parvin_Mohammadi.jpg"
     research: ""
 
-  # 硕士研究生（2023级）
-  - year: "2023级"
-    name: "蒋理国"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/jlg.jpg"
-    research: ""
-
-  - year: "2023级"
-    name: "张梦影"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/zmy.jpg"
-    research: ""
-
-  - year: "2023级"
-    name: "张继伟"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/zjw.jpg"
-    research: ""
-
-  - year: "2023级"
-    name: "张昊森"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/zhs.jpg"
-    research: ""
-  
-  - year: "2023级"
-    name: "夏满"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/xm.jpg"
-    research: ""
-  
-  - year: "2023级"
-    name: "史宇飞"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/syf.jpg"
-    research: ""
-  
-  - year: "2023级"
-    name: "丁煜松"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/dys.jpg"
-    research: ""
-  
-  - year: "2023级"
-    name: "辜煜"
-    degree: "硕士研究生"
-    photo: "/assets/img/members/gy.jpg"
-    research: ""
 
   # 硕士研究生（2024级）
   - year: "2024级"
@@ -286,6 +233,13 @@ graduated:
     degree: "博士研究生"
     photo: "/assets/img/members/wzc.jpg"
     graduation_destination: "安徽农业大学工学院 副教授"
+
+
+  - year: "2022级"
+    name: "毛吾兰"
+    degree: "博士研究生"
+    photo: "/assets/img/members/mwl.jpg"
+    graduation_destination: ""  
 
   # 硕士研究生（按年级排列）
   # 2014级硕士
@@ -445,3 +399,54 @@ graduated:
     degree: "硕士研究生"
     photo: "/assets/img/members/lgl.jpg"
     graduation_destination: "泰开高压"
+
+
+
+    # 硕士研究生（2023级）
+  - year: "2023级"
+    name: "蒋理国"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/jlg.jpg"
+    graduation_destination: ""
+
+  - year: "2023级"
+    name: "张梦影"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/zmy.jpg"
+    graduation_destination: ""
+
+  - year: "2023级"
+    name: "张继伟"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/zjw.jpg"
+    graduation_destination: ""
+
+  - year: "2023级"
+    name: "张昊森"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/zhs.jpg"
+    graduation_destination: ""
+  
+  - year: "2023级"
+    name: "夏满"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/xm.jpg"
+    graduation_destination: ""
+  
+  - year: "2023级"
+    name: "史宇飞"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/syf.jpg"
+    graduation_destination: ""
+  
+  - year: "2023级"
+    name: "丁煜松"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/dys.jpg"
+    graduation_destination: ""
+  
+  - year: "2023级"
+    name: "辜煜"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/gy.jpg"
+    graduation_destination: ""
