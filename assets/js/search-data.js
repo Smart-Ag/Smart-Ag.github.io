@@ -187,8 +187,8 @@ ninja.data = [{
           description: "巴西农业研究公司数字农业中心Jayme Garcia Arnal BARBEDO研究员",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Conferences_2026-05-07/";
-            },},{id: "projects-智慧农业ai技术的研究进展",
-          title: '智慧农业AI技术的研究进展',
+            },},{id: "projects-实时机器人田间表型监测技术的研究进展",
+          title: '实时机器人田间表型监测技术的研究进展',
           description: "美国佛罗里达大学Changying “Charlie” LI教授",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Conferences_2026-06-23/";
