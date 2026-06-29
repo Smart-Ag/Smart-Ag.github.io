@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 智慧农业AI技术的研究进展
+title: 实时机器人田间表型监测技术的研究进展
 description: 美国佛罗里达大学Changying “Charlie” LI教授
 img: assets/img/Conferences/2026_06_23-1.jpg
 importance: 1
