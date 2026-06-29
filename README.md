@@ -24,11 +24,10 @@
 
 ### 主要研究方向
 
-- 🤖 **果树采收机器人** - 猕猴桃、苹果、核桃等果树采摘系统、末端执行器、采摘力分析
-- 🌸 **精准授粉机器人** - 静电辅助授粉、多喷嘴系统、目标定位和优选
-- 👁️ **深度学习与计算机视觉** - YOLO系列目标检测、3D高斯溅射、点云处理、双目/LiDAR融合
-- 📊 **高通量表型分析** - UAV遥感影像分析、作物计数、树体结构参数提取、生长模型
-- 🌐 **数字农业** - Digital Twins果园管理、产量预测、精准决策支持系统
+- 🤖 **农业机器人** - 设计与制造、动力学与控制
+- 👁️ **机器视觉** - 图像处理、目标检测、3D重建
+- 🎯 **智能控制** - 运动规划、轨迹控制
+- 🌾 **精准农业** - 产量预测、智能装备
 
 
 ## 👥 团队成员
@@ -61,9 +60,8 @@
 
 ### 发表论文
 
-- **77** 篇学术论文（SCI/EI收录）
-- 发表在 *Computers and Electronics in Agriculture*, *IEEE Robotics and Automation Letters*, *Journal of Field Robotics*, *Pattern Recognition* 等顶级期刊
-- 发表年份集中在 2021-2026 年，其中 2025 年新增 15 篇
+- **70+** 篇学术论文（SCI/EI收录）
+- 发表在 *IEEE Transactions*, *Computers and Electronics in Agriculture*, *Pattern Recognition* 等顶级期刊
 
 **[浏览论文库 →](https://smart-ag.github.io/publications/)**
 

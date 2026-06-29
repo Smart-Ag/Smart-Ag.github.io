@@ -83,6 +83,12 @@ current:
     photo: "/assets/img/members/Parvin_Mohammadi.jpg"
     research: ""
 
+  - year: "2026级"
+    name: "黄文耀"
+    degree: "博士研究生"
+    photo: "/assets/img/members/hwy.jpg"
+    research: ""
+
 
   # 硕士研究生（2024级）
   - year: "2024级"
