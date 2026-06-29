@@ -3,7 +3,8 @@ name: Prettier code formatter
 on:
   pull_request:
     branches: [ master, main ]
-  # push 事件不再触发自动提交，避免循环
+  push:
+    branches: [ master, main ]
 
 jobs:
   check:
