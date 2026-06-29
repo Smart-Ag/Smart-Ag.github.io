@@ -61,8 +61,9 @@
 
 ### 发表论文
 
-- **100+** 篇学术论文（SCI/EI收录）
-- 发表在 *IEEE Transactions*, *Computers and Electronics in Agriculture*, *Pattern Recognition* 等顶级期刊
+- **77** 篇学术论文（SCI/EI收录）
+- 发表在 *Computers and Electronics in Agriculture*, *IEEE Robotics and Automation Letters*, *Journal of Field Robotics*, *Pattern Recognition* 等顶级期刊
+- 发表年份集中在 2021-2026 年，其中 2025 年新增 15 篇
 
 **[浏览论文库 →](https://smart-ag.github.io/publications/)**
 
