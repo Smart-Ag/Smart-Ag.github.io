@@ -40,14 +40,14 @@ date: 2026-01-18
 </div>
 
 <!-- 新增image-container类，为图片添加顶部间距 -->
-<div class="image-container"> 
+<div class="image-container">
     <div class="row">
         <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
             <div class="ratio ratio-4x3">
                 {% include figure.liquid loading="eager" path="assets/img/Conferences/Vladimir_I._SOLOVIEV.jpg" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
-    </div>     
+    </div>
 </div>
 
 <div class="project-main-text mt-4">
