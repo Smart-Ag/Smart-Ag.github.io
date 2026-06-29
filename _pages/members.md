@@ -327,61 +327,61 @@ nav_order: 7
   .team-container {
     padding: 15px;
   }
-  
+
   .section-title {
     font-size: 24px;
     margin-bottom: 30px;
   }
-  
+
   .subsection-title {
     font-size: 20px;
     margin: 40px 0 25px 0;
   }
-  
+
   .first-faculty-card {
     height: auto;
     flex-direction: column;
   }
-  
+
   .first-faculty-card .faculty-photo {
     width: 100%;
     height: 220px;
     border-right: none;
     border-bottom: 1px solid #eaeaea;
   }
-  
+
   .faculty-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .faculty-card {
     height: auto;
     flex-direction: column;
   }
-  
+
   .faculty-photo {
     width: 100%;
     height: 200px;
     border-right: none;
     border-bottom: 1px solid #eaeaea;
   }
-  
+
   .students-grid {
     grid-template-columns: 1fr; /* 在小屏幕上变为单列 */
     gap: 20px;
   }
-  
+
   .student-card {
     height: auto;
     flex-direction: column;
   }
-  
+
   .student-photo {
     width: 100%;
     height: 180px;
   }
-  
+
   .stats-container {
     flex-direction: column;
     gap: 20px;
@@ -391,7 +391,7 @@ nav_order: 7
 
 <div class="team-container">
   <h1 class="section-title">实验室成员</h1>
-  
+
   <!-- 统计数据 -->
   <div class="stats-container">
     <div class="stat-item">
@@ -411,11 +411,11 @@ nav_order: 7
       <div class="stat-label">总计</div>
     </div>
   </div>
-  
+
   <!-- 导师团队部分 -->
   {% if site.data.members.faculty and site.data.members.faculty.size > 0 %}
   <h2 class="subsection-title">导师团队</h2>
-  
+
   <!-- 第一位导师单独显示 -->
   {% assign first_faculty = site.data.members.faculty | first %}
   <div class="first-faculty-card">
@@ -446,7 +446,7 @@ nav_order: 7
       {% endif %}
     </div>
   </div>
-  
+
   <!-- 其他导师网格布局 -->
   {% assign remaining_faculty = site.data.members.faculty | slice: 1, site.data.members.faculty.size %}
   {% if remaining_faculty.size > 0 %}
@@ -484,10 +484,10 @@ nav_order: 7
   </div>
   {% endif %}
   {% endif %}
-  
+
   <!-- 在读学生部分 -->
   <h2 class="subsection-title">在读学生</h2>
-  
+
   <!-- 博士研究生 -->
   {% assign phd_students = site.data.members.current | where: "degree", "博士研究生" %}
   {% if phd_students.size > 0 %}
@@ -514,7 +514,7 @@ nav_order: 7
     {% endfor %}
   </div>
   {% endif %}
-  
+
   <!-- 硕士研究生 -->
   {% assign ms_students = site.data.members.current | where: "degree", "硕士研究生" %}
   {% if ms_students.size > 0 %}
@@ -541,10 +541,10 @@ nav_order: 7
     {% endfor %}
   </div>
   {% endif %}
-  
+
   <!-- 已毕业学生部分 -->
   <h2 class="subsection-title">已毕业学生</h2>
-  
+
   <!-- 已毕业博士研究生 -->
   {% assign graduated_phd = site.data.members.graduated | where: "degree", "博士研究生" %}
   {% if graduated_phd.size > 0 %}
@@ -577,7 +577,7 @@ nav_order: 7
     {% endfor %}
   </div>
   {% endif %}
-  
+
   <!-- 已毕业硕士研究生 -->
   {% assign graduated_ms = site.data.members.graduated | where: "degree", "硕士研究生" %}
   {% if graduated_ms.size > 0 %}

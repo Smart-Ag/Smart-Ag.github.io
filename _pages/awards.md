@@ -17,7 +17,7 @@ nav_order: 6
         <div class="stat-label">Total Awards</div>
       </div>
     </div>
-    
+
     <div class="col-lg-3 col-md-6">
       <div class="stat-card text-center">
         <div class="stat-number">
@@ -27,7 +27,7 @@ nav_order: 6
         <div class="stat-label">Faculty Awards</div>
       </div>
     </div>
-    
+
     <div class="col-lg-3 col-md-6">
       <div class="stat-card text-center">
         <div class="stat-number">
@@ -37,7 +37,7 @@ nav_order: 6
         <div class="stat-label">Student Awards</div>
       </div>
     </div>
-    
+
     <div class="col-lg-3 col-md-6">
       <div class="stat-card text-center">
         <div class="stat-number">
@@ -65,16 +65,16 @@ nav_order: 6
 <!-- 奖项数据容器 -->
 <div id="awards-data" style="display:none;">
   {% for award in site.data.awards %}
-  <div class="award-item" 
-       data-type="{{ award.type | escape }}" 
-       data-title="{{ award.title | escape }}" 
-       data-year="{{ award.year }}" 
-       data-month="{{ award.month }}" 
-       data-level="{{ award.level }}" 
-       data-level-name="{{ award.level_name | escape }}" 
-       data-organization="{{ award.organization | default: '' | escape }}" 
-       data-competition="{{ award.competition | default: '' | escape }}" 
-       data-participant="{{ award.participant | default: '' | escape }}" 
+  <div class="award-item"
+       data-type="{{ award.type | escape }}"
+       data-title="{{ award.title | escape }}"
+       data-year="{{ award.year }}"
+       data-month="{{ award.month }}"
+       data-level="{{ award.level }}"
+       data-level-name="{{ award.level_name | escape }}"
+       data-organization="{{ award.organization | default: '' | escape }}"
+       data-competition="{{ award.competition | default: '' | escape }}"
+       data-participant="{{ award.participant | default: '' | escape }}"
        data-note="{{ award.note | default: '' | escape }}">
   </div>
   {% endfor %}
@@ -84,7 +84,7 @@ nav_order: 6
 <div class="faculty-awards-section" id="faculty-awards">
   <div class="year-section mb-5">
     <h3 class="year-title">Faculty Awards</h3>
-    
+
     <div id="faculty-awards-list" class="awards-list">
       <!-- 内容由JavaScript动态加载 -->
       <div class="text-center py-5">
@@ -94,7 +94,7 @@ nav_order: 6
         <p class="mt-2">Loading faculty awards...</p>
       </div>
     </div>
-    
+
     <!-- 导师奖项分页 - 每页8条 -->
     <div id="faculty-pagination" class="pagination-wrapper mt-4 d-none">
       <nav aria-label="Faculty awards pagination">
@@ -113,7 +113,7 @@ nav_order: 6
 <div class="student-awards-section d-none" id="student-awards">
   <div class="year-section mb-5">
     <h3 class="year-title">Student Awards</h3>
-    
+
     <div id="student-awards-list" class="awards-list">
       <!-- 内容由JavaScript动态加载 -->
       <div class="text-center py-5">
@@ -123,7 +123,7 @@ nav_order: 6
         <p class="mt-2">Loading student awards...</p>
       </div>
     </div>
-    
+
     <!-- 学生奖项分页 - 每页10条 -->
     <div id="student-pagination" class="pagination-wrapper mt-4 d-none">
       <nav aria-label="Student awards pagination">
@@ -472,37 +472,37 @@ nav_order: 6
   .awards-page {
     padding: 1rem;
   }
-  
+
   .stat-number {
     font-size: 2rem;
   }
-  
+
   .stat-card {
     padding: 1.5rem 1rem;
   }
-  
+
   .filter-btn {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
-  
+
   .year-title {
     font-size: 1.3rem;
   }
-  
+
   .award-card {
     padding: 1.25rem;
   }
-  
+
   .award-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .award-type-badge {
     margin-top: 0.5rem;
   }
-  
+
   .award-footer {
     flex-direction: column;
     align-items: flex-start;
@@ -514,34 +514,34 @@ nav_order: 6
   .stats-cards .row {
     margin: 0 -0.5rem;
   }
-  
+
   .stats-cards .col-lg-3 {
     padding: 0 0.5rem;
   }
-  
+
   .filter-buttons .d-flex {
     flex-direction: column;
     gap: 0.75rem;
   }
-  
+
   .filter-btn {
     width: 100%;
   }
-  
+
   .detail-item {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
   }
-  
+
   .detail-item i {
     margin-bottom: 0.25rem;
   }
-  
+
   .pagination-wrapper {
     padding: 0.75rem;
   }
-  
+
   .page-link {
     padding: 0.375rem 0.5rem;
     font-size: 0.875rem;
@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // ============================
   // 初始化数据
   // ============================
-  
+
   // 从隐藏的div中获取所有奖项数据
   const awardItems = document.querySelectorAll('#awards-data .award-item');
   const allAwards = Array.from(awardItems).map(item => ({
@@ -570,21 +570,21 @@ document.addEventListener('DOMContentLoaded', function() {
     participant: item.getAttribute('data-participant'),
     note: item.getAttribute('data-note')
   }));
-  
+
   // 分离导师和学生奖项（保持原始顺序）
   const facultyAwards = allAwards.filter(a => a.type === "导师");
   const studentAwards = allAwards.filter(a => a.type === "学生");
-  
+
   // ============================
   // 公共函数：创建奖项卡片
   // ============================
   function createAwardCard(award, showTypeBadge = false) {
     const card = document.createElement('div');
     card.className = `award-card award-level-${award.level}`;
-    
+
     // 处理月份显示
     const monthStr = award.month ? String(award.month).padStart(2, '0') : '01';
-    
+
     let html = `
       <div class="award-header">
         <h4 class="award-title">${award.title}</h4>
@@ -602,10 +602,10 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         ` : ''}
       </div>
-      
+
       <div class="award-details">
     `;
-    
+
     // 添加组织信息
     if (award.organization && award.organization.trim() !== '') {
       html += `
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
-    
+
     // 添加比赛信息
     if (award.competition && award.competition.trim() !== '') {
       html += `
@@ -625,7 +625,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
-    
+
     // 添加参与者信息
     if (award.participant && award.participant.trim() !== '') {
       html += `
@@ -635,7 +635,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
-    
+
     // 如果是学生奖项且标题与比赛不同，显示项目信息
     if (award.type === "学生" && award.title !== award.competition && award.competition) {
       html += `
@@ -645,11 +645,11 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
-    
+
     html += `
       </div>
     `;
-    
+
     // 添加备注信息
     if (award.note && award.note.trim() !== '') {
       html += `
@@ -659,7 +659,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
       `;
     }
-    
+
     // 添加页脚
     html += `
       <div class="award-footer">
@@ -671,29 +671,29 @@ document.addEventListener('DOMContentLoaded', function() {
         </span>
       </div>
     `;
-    
+
     card.innerHTML = html;
     return card;
   }
-  
+
   // ============================
   // 导师奖项分页功能
   // ============================
-  
+
   const facultyItemsPerPage = 8; // 导师奖项每页8条
   let currentFacultyPage = 1;
   const totalFacultyItems = facultyAwards.length;
   const totalFacultyPages = Math.ceil(totalFacultyItems / facultyItemsPerPage);
-  
+
   const facultyListContainer = document.getElementById('faculty-awards-list');
   const facultyPagination = document.getElementById('faculty-pagination');
   const facultyPaginationList = document.getElementById('faculty-pagination-list');
   const facultyPageInfo = document.getElementById('faculty-page-info');
-  
+
   // 渲染导师奖项
   function renderFacultyAwards() {
     facultyListContainer.innerHTML = '';
-    
+
     if (totalFacultyItems === 0) {
       facultyListContainer.innerHTML = `
         <div class="empty-state">
@@ -705,35 +705,35 @@ document.addEventListener('DOMContentLoaded', function() {
       facultyPagination.classList.add('d-none');
       return;
     }
-    
+
     // 计算当前页的项目
     const startIndex = (currentFacultyPage - 1) * facultyItemsPerPage;
     const endIndex = startIndex + facultyItemsPerPage;
     const currentItems = facultyAwards.slice(startIndex, endIndex);
-    
+
     // 渲染项目
     currentItems.forEach(award => {
       const awardCard = createAwardCard(award, false);
       facultyListContainer.appendChild(awardCard);
     });
-    
+
     // 更新分页控件
     updateFacultyPagination();
   }
-  
+
   // 更新导师分页控件
   function updateFacultyPagination() {
     if (totalFacultyPages <= 1) {
       facultyPagination.classList.add('d-none');
       return;
     }
-    
+
     facultyPagination.classList.remove('d-none');
     facultyPageInfo.textContent = `Page ${currentFacultyPage} of ${totalFacultyPages} • ${totalFacultyItems} awards`;
-    
+
     // 生成分页HTML
     let paginationHTML = '';
-    
+
     // 上一页按钮
     if (currentFacultyPage > 1) {
       paginationHTML += `
@@ -750,16 +750,16 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     // 页码按钮（最多显示5个）
     const maxPages = 5;
     let startPage = Math.max(1, currentFacultyPage - Math.floor(maxPages / 2));
     let endPage = Math.min(totalFacultyPages, startPage + maxPages - 1);
-    
+
     if (endPage - startPage + 1 < maxPages) {
       startPage = Math.max(1, endPage - maxPages + 1);
     }
-    
+
     // 第一页
     if (startPage > 1) {
       paginationHTML += `
@@ -769,7 +769,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ${startPage > 2 ? '<li class="page-item disabled"><span class="page-link">...</span></li>' : ''}
       `;
     }
-    
+
     // 中间页码
     for (let i = startPage; i <= endPage; i++) {
       if (i === currentFacultyPage) {
@@ -786,7 +786,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
       }
     }
-    
+
     // 最后一页
     if (endPage < totalFacultyPages) {
       paginationHTML += `
@@ -796,7 +796,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     // 下一页按钮
     if (currentFacultyPage < totalFacultyPages) {
       paginationHTML += `
@@ -813,9 +813,9 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     facultyPaginationList.innerHTML = paginationHTML;
-    
+
     // 为分页链接添加点击事件
     document.querySelectorAll('.faculty-page[data-page]').forEach(link => {
       link.addEventListener('click', function(e) {
@@ -832,25 +832,25 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
-  
+
   // ============================
   // 学生奖项分页功能
   // ============================
-  
+
   const studentItemsPerPage = 10; // 学生奖项每页10条
   let currentStudentPage = 1;
   const totalStudentItems = studentAwards.length;
   const totalStudentPages = Math.ceil(totalStudentItems / studentItemsPerPage);
-  
+
   const studentListContainer = document.getElementById('student-awards-list');
   const studentPagination = document.getElementById('student-pagination');
   const studentPaginationList = document.getElementById('student-pagination-list');
   const studentPageInfo = document.getElementById('student-page-info');
-  
+
   // 渲染学生奖项
   function renderStudentAwards() {
     studentListContainer.innerHTML = '';
-    
+
     if (totalStudentItems === 0) {
       studentListContainer.innerHTML = `
         <div class="empty-state">
@@ -862,35 +862,35 @@ document.addEventListener('DOMContentLoaded', function() {
       studentPagination.classList.add('d-none');
       return;
     }
-    
+
     // 计算当前页的项目
     const startIndex = (currentStudentPage - 1) * studentItemsPerPage;
     const endIndex = startIndex + studentItemsPerPage;
     const currentItems = studentAwards.slice(startIndex, endIndex);
-    
+
     // 渲染项目
     currentItems.forEach(award => {
       const awardCard = createAwardCard(award, false);
       studentListContainer.appendChild(awardCard);
     });
-    
+
     // 更新分页控件
     updateStudentPagination();
   }
-  
+
   // 更新学生分页控件
   function updateStudentPagination() {
     if (totalStudentPages <= 1) {
       studentPagination.classList.add('d-none');
       return;
     }
-    
+
     studentPagination.classList.remove('d-none');
     studentPageInfo.textContent = `Page ${currentStudentPage} of ${totalStudentPages} • ${totalStudentItems} awards`;
-    
+
     // 生成分页HTML
     let paginationHTML = '';
-    
+
     // 上一页按钮
     if (currentStudentPage > 1) {
       paginationHTML += `
@@ -907,16 +907,16 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     // 页码按钮（最多显示5个）
     const maxPages = 5;
     let startPage = Math.max(1, currentStudentPage - Math.floor(maxPages / 2));
     let endPage = Math.min(totalStudentPages, startPage + maxPages - 1);
-    
+
     if (endPage - startPage + 1 < maxPages) {
       startPage = Math.max(1, endPage - maxPages + 1);
     }
-    
+
     // 第一页
     if (startPage > 1) {
       paginationHTML += `
@@ -926,7 +926,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ${startPage > 2 ? '<li class="page-item disabled"><span class="page-link">...</span></li>' : ''}
       `;
     }
-    
+
     // 中间页码
     for (let i = startPage; i <= endPage; i++) {
       if (i === currentStudentPage) {
@@ -943,7 +943,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
       }
     }
-    
+
     // 最后一页
     if (endPage < totalStudentPages) {
       paginationHTML += `
@@ -953,7 +953,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     // 下一页按钮
     if (currentStudentPage < totalStudentPages) {
       paginationHTML += `
@@ -970,9 +970,9 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       `;
     }
-    
+
     studentPaginationList.innerHTML = paginationHTML;
-    
+
     // 为分页链接添加点击事件
     document.querySelectorAll('.student-page[data-page]').forEach(link => {
       link.addEventListener('click', function(e) {
@@ -989,24 +989,24 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
-  
+
   // ============================
   // 筛选功能
   // ============================
   const filterButtons = document.querySelectorAll('.filter-btn');
-  
+
   filterButtons.forEach(button => {
     button.addEventListener('click', function() {
       // 更新按钮状态
       filterButtons.forEach(btn => btn.classList.remove('active'));
       this.classList.add('active');
-      
+
       // 显示对应的部分
       const filter = this.getAttribute('data-filter');
-      
+
       document.getElementById('faculty-awards').classList.add('d-none');
       document.getElementById('student-awards').classList.add('d-none');
-      
+
       if (filter === 'faculty') {
         document.getElementById('faculty-awards').classList.remove('d-none');
         // 重置分页到第一页
@@ -1018,7 +1018,7 @@ document.addEventListener('DOMContentLoaded', function() {
         currentStudentPage = 1;
         renderStudentAwards();
       }
-      
+
       // 平滑滚动到顶部
       window.scrollTo({
         top: 0,
@@ -1026,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
-  
+
   // ============================
   // 回到顶部按钮
   // ============================
@@ -1035,7 +1035,7 @@ document.addEventListener('DOMContentLoaded', function() {
   backToTopBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
   backToTopBtn.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:1000;width:45px;height:45px;box-shadow:0 2px 5px rgba(0,0,0,0.2);';
   document.body.appendChild(backToTopBtn);
-  
+
   window.addEventListener('scroll', function() {
     if (window.pageYOffset > 300) {
       backToTopBtn.classList.remove('d-none');
@@ -1046,18 +1046,18 @@ document.addEventListener('DOMContentLoaded', function() {
       backToTopBtn.classList.add('d-none');
     }
   });
-  
+
   backToTopBtn.addEventListener('click', function() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   });
-  
+
   // ============================
   // 初始化页面
   // ============================
-  
+
   // 初始渲染
   renderFacultyAwards();
   renderStudentAwards();

@@ -16,9 +16,9 @@ nav_order: 2
 
 <div class="news-archive">
   {% for item in sorted_news %}
-  
+
   <div class="news-item mb-5">
-    
+
     <!-- 日期和分类标签 -->
     <div class="news-header mb-3">
       {% if item.date %}
@@ -31,14 +31,14 @@ nav_order: 2
           <i class="fas fa-calendar-alt me-1"></i> No date
         </span>
       {% endif %}
-      
+
       {% if item.category %}
         <span class="news-category badge bg-primary ms-2">
           {{ item.category }}
         </span>
       {% endif %}
     </div>
-    
+
     <!-- 标题 -->
     <h2 class="news-title">
       {% if item.link and item.link != "" %}
@@ -50,31 +50,31 @@ nav_order: 2
         {{ item.title }}
       {% endif %}
     </h2>
-    
+
     <!-- 描述 -->
     {% if item.description %}
       <p class="news-description lead">
         {{ item.description }}
       </p>
     {% endif %}
-    
+
     <!-- 详细内容（如果有） -->
     {% if item.content and item.content != "" %}
       <div class="news-content mt-3">
         {{ item.content | markdownify }}
       </div>
     {% endif %}
-    
+
     <!-- 图片（如果有） -->
     {% if item.image and item.image != "" %}
       <div class="news-image mt-3">
-        <img src="{{ item.image | relative_url }}" 
-             class="img-fluid rounded" 
+        <img src="{{ item.image | relative_url }}"
+             class="img-fluid rounded"
              alt="{{ item.title }}"
              style="max-height: 400px; object-fit: cover; width: 100%;">
       </div>
     {% endif %}
-    
+
     <!-- 标签 -->
     {% if item.tags and item.tags.size > 0 %}
       <div class="news-tags mt-3">
@@ -85,7 +85,7 @@ nav_order: 2
         {% endfor %}
       </div>
     {% endif %}
-    
+
     <!-- 额外链接 -->
     {% if item.link or item.pdf or item.slides or item.video %}
       <div class="news-links mt-3">
@@ -94,19 +94,19 @@ nav_order: 2
             <i class="fas fa-external-link-alt me-1"></i> Read More
           </a>
         {% endif %}
-        
+
         {% if item.pdf and item.pdf != "" %}
           <a href="{{ item.pdf | relative_url }}" class="btn btn-outline-secondary btn-sm me-2">
             <i class="fas fa-file-pdf me-1"></i> PDF
           </a>
         {% endif %}
-        
+
         {% if item.slides and item.slides != "" %}
           <a href="{{ item.slides | relative_url }}" class="btn btn-outline-secondary btn-sm me-2">
             <i class="fas fa-chalkboard me-1"></i> Slides
           </a>
         {% endif %}
-        
+
         {% if item.video and item.video != "" %}
           <a href="{{ item.video }}" class="btn btn-outline-secondary btn-sm me-2" target="_blank">
             <i class="fas fa-video me-1"></i> Video
@@ -114,14 +114,14 @@ nav_order: 2
         {% endif %}
       </div>
     {% endif %}
-    
+
   </div>
-  
+
   <!-- 分隔线（除最后一条外） -->
   {% unless forloop.last %}
     <hr class="my-5">
   {% endunless %}
-  
+
   {% endfor %}
 </div>
 

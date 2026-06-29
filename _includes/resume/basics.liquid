@@ -23,13 +23,13 @@
       {% endfor %}
     </table>
   </div>
-  
+
   <!-- 右侧：新增的照片（不影响左侧任何样式） -->
   <div class="col-md-4 text-end">
     {% if site.data.resume.basics.image %}
     <div class="cv-profile-image">
-      <img src="{{ site.data.resume.basics.image | relative_url }}" 
-           alt="Profile Image" 
+      <img src="{{ site.data.resume.basics.image | relative_url }}"
+           alt="Profile Image"
            class="img-fluid rounded"
            style="max-width: 180px; width: 100%;">
     </div>

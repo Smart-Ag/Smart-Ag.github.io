@@ -31,28 +31,28 @@ horizontal: false
   .projects .row-cols-1.row-cols-md-3 {
     display: block !important;
   }
-  
+
   .projects .row-cols-1.row-cols-md-3 > * {
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
-  
+
   .projects .row-cols-1.row-cols-md-2 {
     display: block !important;
   }
-  
+
   .projects .row-cols-1.row-cols-md-2 > * {
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
-  
+
   .projects .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-  
+
   .projects .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -67,7 +67,7 @@ horizontal: false
     background: linear-gradient(145deg, #ffffff, #f8f9fa);
     border-radius: 16px;
     padding: 8px;
-    box-shadow: 
+    box-shadow:
       0 8px 32px rgba(0, 0, 0, 0.08),
       0 2px 8px rgba(0, 0, 0, 0.04),
       inset 0 1px 0 rgba(255, 255, 255, 0.8);

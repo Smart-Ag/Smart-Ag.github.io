@@ -5,5 +5,5 @@ description: Annual Meeting
 img: assets/img/contact-header.jpg
 importance: 5
 date: 2026-01-18
-pdf: /assets/pdf/annual_meeting_handbook.pdf   
+pdf: /assets/pdf/annual_meeting_handbook.pdf
 ---

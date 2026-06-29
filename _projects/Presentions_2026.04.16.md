@@ -47,5 +47,4 @@ date: 2026-04-16
                 {% include figure.liquid loading="eager" path="assets/img/Presentations/2026_04_16.png" title="example image" class="img-fluid rounded z-depth-1 object-fit-cover" %}
             </div>
         </div>
-    </div> 
-    
+    </div>

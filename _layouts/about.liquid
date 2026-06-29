@@ -8,10 +8,10 @@ layout: default
     <div class="container my-4">
       <div class="row justify-content-center">
         <div class="col-lg-10 col-12">
-          
+
           {% assign carousel_items = site.data.carousel %}
           {% assign total_items = carousel_items | size %}
-          
+
           {% if total_items > 0 %}
           <div id="customCarousel" class="custom-carousel">
             <!-- 轮播轨道 -->
@@ -19,13 +19,13 @@ layout: default
               {% for item in carousel_items %}
               <div class="carousel-slide {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}">
                 <div class="image-container-4-3">
-                  <img src="/assets/img/carousel/{{ item.image }}" 
+                  <img src="/assets/img/carousel/{{ item.image }}"
                        alt="{{ item.alt }}">
                 </div>
               </div>
               {% endfor %}
             </div>
-            
+
             <!-- 左右导航按钮 -->
             <button class="carousel-btn prev-btn" aria-label="上一张图片">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -37,17 +37,17 @@ layout: default
                 <path d="M9 18l6-6-6-6"/>
               </svg>
             </button>
-            
+
             <!-- 指示器 -->
             <div class="carousel-indicators">
               {% for item in carousel_items %}
-              <button class="indicator {% if forloop.first %}active{% endif %}" 
+              <button class="indicator {% if forloop.first %}active{% endif %}"
                       data-index="{{ forloop.index0 }}"
                       aria-label="跳转到图片 {{ forloop.index }}">
               </button>
               {% endfor %}
             </div>
-            
+
             <!-- 当前图片计数器 -->
             <div class="carousel-counter">
               <span id="currentSlide">1</span> / <span id="totalSlides">{{ total_items }}</span>
@@ -64,7 +64,7 @@ layout: default
             </div>
           </div>
           {% endif %}
-          
+
         </div>
       </div>
     </div>
@@ -268,36 +268,36 @@ layout: default
     width: 40px;
     height: 40px;
   }
-  
+
   .carousel-btn svg {
     width: 16px;
     height: 16px;
   }
-  
+
   .prev-btn {
     left: 8px;
   }
-  
+
   .next-btn {
     right: 8px;
   }
-  
+
   .carousel-indicators {
     bottom: 15px;
   }
-  
+
   .indicator {
     width: 10px;
     height: 10px;
   }
-  
+
   .carousel-counter {
     bottom: 15px;
     right: 15px;
     font-size: 13px;
     padding: 3px 10px;
   }
-  
+
   .section-title {
     font-size: 1.4rem;
   }
@@ -308,17 +308,17 @@ layout: default
     width: 36px;
     height: 36px;
   }
-  
+
   .carousel-btn svg {
     width: 14px;
     height: 14px;
   }
-  
+
   .carousel-indicators {
     bottom: 12px;
     gap: 6px;
   }
-  
+
   .indicator {
     width: 8px;
     height: 8px;
@@ -331,13 +331,13 @@ layout: default
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   console.log('🚀 开始初始化自定义轮播...');
-  
+
   const carousel = document.getElementById('customCarousel');
   if (!carousel) {
     console.warn('⚠️ 未找到轮播元素，跳过初始化');
     return;
   }
-  
+
   const track = carousel.querySelector('.carousel-track');
   const slides = carousel.querySelectorAll('.carousel-slide');
   const prevBtn = carousel.querySelector('.prev-btn');
@@ -345,91 +345,91 @@ document.addEventListener('DOMContentLoaded', function() {
   const indicators = carousel.querySelectorAll('.indicator');
   const currentSlideSpan = document.getElementById('currentSlide');
   const totalSlidesSpan = document.getElementById('totalSlides');
-  
+
   if (!track || slides.length === 0) {
     console.warn('⚠️ 轮播元素不完整，跳过初始化');
     return;
   }
-  
+
   console.log(`✅ 找到 ${slides.length} 张图片`);
-  
+
   let currentIndex = 0;
   let isTransitioning = false;
   let autoPlayInterval = null;
   const transitionDuration = 500;
   const autoPlayDelay = 3000;
-  
+
   function updateCarousel() {
     if (isTransitioning) return;
-    
+
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    
+
     slides.forEach((slide, index) => {
       slide.classList.toggle('active', index === currentIndex);
     });
-    
+
     indicators.forEach((indicator, index) => {
       indicator.classList.toggle('active', index === currentIndex);
     });
-    
+
     if (currentSlideSpan) {
       currentSlideSpan.textContent = currentIndex + 1;
     }
-    
+
     if (totalSlidesSpan && !totalSlidesSpan.textContent) {
       totalSlidesSpan.textContent = slides.length;
     }
-    
+
     isTransitioning = true;
     setTimeout(() => {
       isTransitioning = false;
     }, transitionDuration);
-    
+
     console.log(`🔍 显示图片 ${currentIndex + 1}/${slides.length}`);
   }
-  
+
   function nextSlide() {
     if (isTransitioning) return;
-    
+
     if (currentIndex >= slides.length - 1) {
       currentIndex = 0;
     } else {
       currentIndex++;
     }
-    
+
     updateCarousel();
     restartAutoPlay();
   }
-  
+
   function prevSlide() {
     if (isTransitioning) return;
-    
+
     if (currentIndex <= 0) {
       currentIndex = slides.length - 1;
     } else {
       currentIndex--;
     }
-    
+
     updateCarousel();
     restartAutoPlay();
   }
-  
+
   function goToSlide(index) {
     if (isTransitioning || index < 0 || index >= slides.length || index === currentIndex) {
       return;
     }
-    
+
     currentIndex = index;
     updateCarousel();
     restartAutoPlay();
   }
-  
+
   function startAutoPlay() {
     stopAutoPlay();
     autoPlayInterval = setInterval(nextSlide, autoPlayDelay);
     console.log('▶️ 自动播放已启动');
   }
-  
+
   function stopAutoPlay() {
     if (autoPlayInterval) {
       clearInterval(autoPlayInterval);
@@ -437,12 +437,12 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('⏸️ 自动播放已停止');
     }
   }
-  
+
   function restartAutoPlay() {
     stopAutoPlay();
     startAutoPlay();
   }
-  
+
   function bindEvents() {
     if (prevBtn) {
       prevBtn.addEventListener('click', function(e) {
@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', function() {
         prevSlide();
       });
     }
-    
+
     if (nextBtn) {
       nextBtn.addEventListener('click', function(e) {
         e.preventDefault();
@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nextSlide();
       });
     }
-    
+
     indicators.forEach((indicator, index) => {
       indicator.addEventListener('click', function(e) {
         e.preventDefault();
@@ -467,15 +467,15 @@ document.addEventListener('DOMContentLoaded', function() {
         goToSlide(index);
       });
     });
-    
+
     document.addEventListener('keydown', function(e) {
       const activeElement = document.activeElement;
-      const isInput = activeElement.tagName === 'INPUT' || 
-                      activeElement.tagName === 'TEXTAREA' || 
+      const isInput = activeElement.tagName === 'INPUT' ||
+                      activeElement.tagName === 'TEXTAREA' ||
                       activeElement.isContentEditable;
-      
+
       if (isInput) return;
-      
+
       switch(e.key) {
         case 'ArrowLeft':
           prevSlide();
@@ -487,20 +487,20 @@ document.addEventListener('DOMContentLoaded', function() {
           break;
       }
     });
-    
+
     let touchStartX = 0;
     let touchEndX = 0;
     const swipeThreshold = 50;
-    
+
     carousel.addEventListener('touchstart', function(e) {
       touchStartX = e.touches[0].clientX;
       stopAutoPlay();
     }, { passive: true });
-    
+
     carousel.addEventListener('touchend', function(e) {
       touchEndX = e.changedTouches[0].clientX;
       const diff = touchStartX - touchEndX;
-      
+
       if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) {
           nextSlide();
@@ -508,16 +508,16 @@ document.addEventListener('DOMContentLoaded', function() {
           prevSlide();
         }
       }
-      
+
       setTimeout(() => {
         startAutoPlay();
       }, 1000);
     }, { passive: true });
-    
+
     carousel.addEventListener('mouseenter', stopAutoPlay);
     carousel.addEventListener('mouseleave', startAutoPlay);
   }
-  
+
   function initCarousel() {
     if (slides.length > 0) {
       updateCarousel();
@@ -526,9 +526,9 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoPlay();
     console.log('✅ 轮播初始化完成');
   }
-  
+
   initCarousel();
-  
+
   window.carouselControls = {
     nextSlide,
     prevSlide,
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function() {
     startAutoPlay,
     stopAutoPlay
   };
-  
+
   console.log('🎉 自定义轮播组件已完全加载');
 });
 </script>

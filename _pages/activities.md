@@ -13,17 +13,17 @@ horizontal: false
   .activities .row-cols-1.row-cols-md-3 {
     display: block !important;
   }
-  
+
   .activities .row-cols-1.row-cols-md-3 > * {
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
-  
+
   .activities .row-cols-1.row-cols-md-2 {
     display: block !important;
   }
-  
+
   .activities .row-cols-1.row-cols-md-2 > * {
     width: 100% !important;
     max-width: 100% !important;
