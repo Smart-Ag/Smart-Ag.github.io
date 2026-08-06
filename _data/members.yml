@@ -225,6 +225,19 @@ current:
     photo: "/assets/img/members/zh.jpg"
     research: ""
 
+  - year: "2026级"
+    name: "刘子燊"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/lzs.jpg"
+    research: ""
+
+  - year: "2026级"
+    name: "郭典洪"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/gdh.jpg"
+    research: ""
+
+    
 # 已毕业学生
 graduated:
   # 博士研究生
@@ -245,7 +258,7 @@ graduated:
     name: "毛吾兰"
     degree: "博士研究生"
     photo: "/assets/img/members/mwl.jpg"
-    graduation_destination: ""
+    graduation_destination: "新疆农科院 副研究员"
 
   # 硕士研究生（按年级排列）
   # 2014级硕士
@@ -413,46 +426,46 @@ graduated:
     name: "蒋理国"
     degree: "硕士研究生"
     photo: "/assets/img/members/jlg.jpg"
-    graduation_destination: ""
+    graduation_destination: "北京师范大学 读博"
 
   - year: "2023级"
     name: "张梦影"
     degree: "硕士研究生"
     photo: "/assets/img/members/zmy.jpg"
-    graduation_destination: ""
+    graduation_destination: "沃尔核材"
 
   - year: "2023级"
     name: "张继伟"
     degree: "硕士研究生"
     photo: "/assets/img/members/zjw.jpg"
-    graduation_destination: ""
+    graduation_destination: "电科所"
 
   - year: "2023级"
     name: "张昊森"
     degree: "硕士研究生"
     photo: "/assets/img/members/zhs.jpg"
-    graduation_destination: ""
+    graduation_destination: "OPPO"
 
   - year: "2023级"
     name: "夏满"
     degree: "硕士研究生"
     photo: "/assets/img/members/xm.jpg"
-    graduation_destination: ""
+    graduation_destination: "安徽叉车"
 
   - year: "2023级"
     name: "史宇飞"
     degree: "硕士研究生"
     photo: "/assets/img/members/syf.jpg"
-    graduation_destination: ""
+    graduation_destination: "西安航天自动化"
 
   - year: "2023级"
     name: "丁煜松"
     degree: "硕士研究生"
     photo: "/assets/img/members/dys.jpg"
-    graduation_destination: ""
+    graduation_destination: "东风汽车"
 
   - year: "2023级"
     name: "辜煜"
     degree: "硕士研究生"
     photo: "/assets/img/members/gy.jpg"
-    graduation_destination: ""
+    graduation_destination: "美的"
