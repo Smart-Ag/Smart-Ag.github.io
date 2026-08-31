@@ -82,6 +82,39 @@
   competition: "第二十八届中国机器人及人工智能大赛"
   participant: "家博"
 
+- title: "基于远近景相机协同与ROS2分布式架构的猕猴桃全流程双臂作业平台（新亚特车）"
+  type: "学生"
+  year: 2026
+  month: 8
+  level: 5
+  level_name: "省级二等奖"
+  competition: "第二十一届中国研究生电子设计竞赛西北赛区"
+  participant: "牛世奥"
+  supervisor: "李瑞，傅隆生"
+  note: "队伍：六耳猕猴"
+
+- title: "面向猕猴桃倾斜状态感知的伸缩式采摘机械臂及末端执行器设计"
+  type: "学生"
+  year: 2026
+  month: 8
+  level: 5
+  level_name: "省级二等奖"
+  competition: "第二十一届中国研究生电子设计竞赛西北赛区"
+  participant: "家博"
+  supervisor: "寇小希，傅隆生"
+  note: "队伍：奇智果探"
+
+- title: "猕猴桃双臂协同激光稳梢摘心机器人"
+  type: "学生"
+  year: 2026
+  month: 8
+  level: 2
+  level_name: "国家级二等奖"
+  competition: "第二十一届中国研究生电子设计竞赛"
+  participant: "豆宇飞"
+  supervisor: "李瑞"
+  note: "队伍：稳梢摘心队"
+
 - title: "Design of a laser-based clamping endeflector for kiwifruit summer pinching under dynamic field conditions"
   type: "学生"
   year: 2026
