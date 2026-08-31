@@ -61,8 +61,9 @@ horizontal: false
 
 {% else %}
 <!-- Display activities without categories -->
+
 {% assign sorted_activities = site.activities | sort: "importance" | reverse %}
-  {% if page.horizontal %}
+{% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for activity in sorted_activities %}

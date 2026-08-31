@@ -217,9 +217,11 @@ horizontal: false
 {% else %}
 
 <!-- 无分类时，直接展示所有项目 -->
+
 {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
 
   <!-- 根据 horizontal 参数生成卡片 -->
+
 {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">

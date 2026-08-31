@@ -1,5 +1,5 @@
 ---
-layout: page                        # 改为 page
+layout: page # 改为 page
 title: “汇智同行 共启新章：AgRobot团队联欢宴”
 description: Annual Meeting
 img: assets/img/contact-header.jpg

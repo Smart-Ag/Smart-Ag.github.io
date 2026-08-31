@@ -1,6 +1,8 @@
 <div class="col">
-  <a href="{% if activity.redirect %}{{ activity.redirect }}{% else %}{{ activity.url | relative_url }}{% endif %}"
-     class="activity-card-link">
+  <a
+    href="{% if activity.redirect %}{{ activity.redirect }}{% else %}{{ activity.url | relative_url }}{% endif %}"
+    class="activity-card-link"
+  >
     <div class="card h-100 hoverable activity-card">
       <div class="row no-gutters h-100">
         {% if activity.img %}
@@ -13,11 +15,9 @@
             <h3 class="card-title">{{ activity.title }}</h3>
             <p class="card-text">{{ activity.description }}</p>
             {% if activity.date %}
-            <div class="activity-meta">
-              <small class="text-muted">
-                <i class="fas fa-calendar-alt me-1"></i>{{ activity.date | date: "%Y年%m月%d日" }}
-              </small>
-            </div>
+              <div class="activity-meta">
+                <small class="text-muted"> <i class="fas fa-calendar-alt me-1"></i>{{ activity.date | date: '%Y年%m月%d日' }} </small>
+              </div>
             {% endif %}
           </div>
         </div>

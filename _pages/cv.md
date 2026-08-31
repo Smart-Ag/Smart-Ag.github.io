@@ -1,5 +1,4 @@
 ---
-
 layout: cv
 permalink: /cv/
 title: Resume
@@ -9,5 +8,4 @@ cv_pdf:
 description:
 toc:
   sidebar: left
-
 ---

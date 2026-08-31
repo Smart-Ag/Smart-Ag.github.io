@@ -93,11 +93,13 @@ layout: default
               {% case data[0] %}
                 {% when 'volunteer' %}
                   Academic Part-time Position
-                {% when 'projects' %}  <!-- 新增projects分支 -->
-                  Academic Review       <!-- 自定义标题 -->
+                {% when 'projects' %}
+                  <!-- 新增projects分支 -->
+                  Academic Review
+                  <!-- 自定义标题 -->
                 {% else %}
                   {{ data[0] | capitalize }}
-                {% endcase %}
+              {% endcase %}
             </h3>
             <div>
               {% case data[0] %}
@@ -115,8 +117,9 @@ layout: default
                   {% include resume/awards.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                <!-- 以下5个板块已注释，不再渲染 -->
-                {# {% when 'skills' %}
+                  <!-- 以下5个板块已注释，不再渲染 -->
+                  {#
+                {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'languages' %}
                   {% include resume/languages.liquid %}

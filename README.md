@@ -8,7 +8,7 @@
 
 **AgRobot实验室官方网站**
 
-*Agriculture Robotics | Computer Vision | Intelligent Control*
+_Agriculture Robotics | Computer Vision | Intelligent Control_
 
 ---
 
@@ -29,15 +29,14 @@
 - 🎯 **智能控制** - 运动规划、轨迹控制
 - 🌾 **精准农业** - 产量预测、智能装备
 
-
 ## 👥 团队成员
 
-| 类别 | 数量 | 详情 |
-|------|------|------|
-| 导师（指导教师） | 3 | 教授、讲师 |
-| 博士研究生 | 9 | 2022-2025级 |
-| 硕士研究生 | 20+ | 2024-2026级 |
-| 已毕业校友 | 36 | 进入学术界和产业界 |
+| 类别             | 数量 | 详情               |
+| ---------------- | ---- | ------------------ |
+| 导师（指导教师） | 3    | 教授、讲师         |
+| 博士研究生       | 9    | 2022-2025级        |
+| 硕士研究生       | 20+  | 2024-2026级        |
+| 已毕业校友       | 36   | 进入学术界和产业界 |
 
 **[查看完整成员列表 →](https://smart-ag.github.io/members/)**
 
@@ -61,10 +60,9 @@
 ### 发表论文
 
 - **70+** 篇学术论文（SCI/EI收录）
-- 发表在 *IEEE Transactions*, *Computers and Electronics in Agriculture*, *Pattern Recognition* 等顶级期刊
+- 发表在 _IEEE Transactions_, _Computers and Electronics in Agriculture_, _Pattern Recognition_ 等顶级期刊
 
 **[浏览论文库 →](https://smart-ag.github.io/publications/)**
-
 
 ### 学术活动
 
@@ -73,8 +71,6 @@
 - 参加国际学术会议展示研究成果
 
 **[学术报告 →](https://smart-ag.github.io/scholarly%20seminars/)**
-
-
 
 ## 📧 联系方式
 
@@ -85,7 +81,6 @@
 - 📧 邮箱: fulsh@nwafu.edu.cn
 - 🏫 机构: 西北农林科技大学
 
-
 ### 学生招生
 
 欢迎对农业机器人、计算机视觉、智能控制感兴趣的学生申报！
@@ -93,9 +88,6 @@
 - 🎓 **博士研究生** - 欢迎推荐免试生和应往届硕士
 - 🎓 **硕士研究生** - 欢迎学术型和专业型考生
 - 📧 联系: fulsh@nwafu.edu.cn
-
-
-
 
 <div align="center">
 

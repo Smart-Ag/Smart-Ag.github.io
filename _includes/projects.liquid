@@ -1,22 +1,24 @@
 <div class="col-12 mb-4">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
-     class="project-card-link">
+  <a
+    href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+    class="project-card-link"
+  >
     <div class="card h-100 hoverable project-card">
       <div class="row g-0 h-100">
         <!-- 左侧：图片 -->
         {% if project.img %}
-        <div class="col-md-4 col-lg-3">
-          <div class="project-img-container h-100">
-            {%
-              include figure.liquid
-              loading="eager"
-              path=project.img
-              sizes="(min-width: 768px) 156px, 50vw"
-              alt="project thumbnail"
-              class="project-img"
-            %}
+          <div class="col-md-4 col-lg-3">
+            <div class="project-img-container h-100">
+              {%
+                include figure.liquid
+                loading="eager"
+                path=project.img
+                sizes="(min-width: 768px) 156px, 50vw"
+                alt="project thumbnail"
+                class="project-img"
+              %}
+            </div>
           </div>
-        </div>
         {% endif %}
 
         <!-- 右侧：文本内容 -->
@@ -30,10 +32,10 @@
             <!-- 底部信息 -->
             <div class="project-footer mt-auto">
               {% if project.date %}
-              <div class="date-info d-flex align-items-center">
-                <i class="fas fa-calendar-alt me-3"></i>
-                <span>{{ project.date | date: "%Y年%m月%d日" }}</span>
-              </div>
+                <div class="date-info d-flex align-items-center">
+                  <i class="fas fa-calendar-alt me-3"></i>
+                  <span>{{ project.date | date: '%Y年%m月%d日' }}</span>
+                </div>
               {% endif %}
             </div>
           </div>
@@ -44,120 +46,120 @@
 </div>
 
 <style>
-/* 项目卡片样式 - 整行显示 */
-.project-card {
-  border: 1px solid #eaeaea;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  overflow: hidden;
-  height: 180px;
-}
-
-.project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  border-color: #3498db;
-}
-
-.project-card-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.project-img-container {
-  overflow: hidden;
-  border-right: 1px solid #f0f0f0;
-  height: 100%;
-}
-
-.project-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover .project-img {
-  transform: scale(1.05);
-}
-
-.project-main-title {
-  font-family: "Times New Roman", SimSun, serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #2c3e50;
-  line-height: 1.4;
-  margin-bottom: 10px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.project-description {
-  font-family: "Times New Roman", SimSun, serif;
-  font-size: 15px;
-  color: #7f8c8d;
-  line-height: 1.5;
-  margin-bottom: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.date-info {
-  font-family: "Times New Roman", SimSun, serif;
-  font-size: 14px;
-  color: #95a5a6;
-}
-
-.date-info i {
-  color: #3498db;
-  font-size: 14px;
-}
-
-.card-body {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.project-footer {
-  border-top: 1px solid #f0f0f0;
-  padding-top: 10px;
-}
-
-/* 移动设备响应式 */
-@media (max-width: 768px) {
+  /* 项目卡片样式 - 整行显示 */
   .project-card {
-    height: auto;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    height: 180px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: #3498db;
+  }
+
+  .project-card-link {
+    text-decoration: none;
+    color: inherit;
   }
 
   .project-img-container {
-    border-right: none;
-    border-bottom: 1px solid #f0f0f0;
-    height: 150px;
+    overflow: hidden;
+    border-right: 1px solid #f0f0f0;
+    height: 100%;
+  }
+
+  .project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .project-card:hover .project-img {
+    transform: scale(1.05);
   }
 
   .project-main-title {
-    font-size: 17px;
-    margin-top: 15px;
+    font-family: 'Times New Roman', SimSun, serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .project-description {
+    font-family: 'Times New Roman', SimSun, serif;
+    font-size: 15px;
+    color: #7f8c8d;
+    line-height: 1.5;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .date-info {
+    font-family: 'Times New Roman', SimSun, serif;
+    font-size: 14px;
+    color: #95a5a6;
+  }
+
+  .date-info i {
+    color: #3498db;
     font-size: 14px;
   }
 
   .card-body {
-    padding: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
-}
 
-/* 确保所有卡片高度一致 */
-.col-12 {
-  width: 100%;
-  max-width: 100%;
-}
+  .project-footer {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 10px;
+  }
+
+  /* 移动设备响应式 */
+  @media (max-width: 768px) {
+    .project-card {
+      height: auto;
+    }
+
+    .project-img-container {
+      border-right: none;
+      border-bottom: 1px solid #f0f0f0;
+      height: 150px;
+    }
+
+    .project-main-title {
+      font-size: 17px;
+      margin-top: 15px;
+    }
+
+    .project-description {
+      font-size: 14px;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+  }
+
+  /* 确保所有卡片高度一致 */
+  .col-12 {
+    width: 100%;
+    max-width: 100%;
+  }
 </style>

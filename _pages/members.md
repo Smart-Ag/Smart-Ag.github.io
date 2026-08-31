@@ -413,11 +413,13 @@ nav_order: 7
   </div>
 
   <!-- 导师团队部分 -->
-  {% if site.data.members.faculty and site.data.members.faculty.size > 0 %}
+
+{% if site.data.members.faculty and site.data.members.faculty.size > 0 %}
   <h2 class="subsection-title">导师团队</h2>
 
   <!-- 第一位导师单独显示 -->
-  {% assign first_faculty = site.data.members.faculty | first %}
+
+{% assign first_faculty = site.data.members.faculty | first %}
   <div class="first-faculty-card">
     <div class="faculty-photo">
       {% if first_faculty.photo %}
@@ -448,8 +450,9 @@ nav_order: 7
   </div>
 
   <!-- 其他导师网格布局 -->
-  {% assign remaining_faculty = site.data.members.faculty | slice: 1, site.data.members.faculty.size %}
-  {% if remaining_faculty.size > 0 %}
+
+{% assign remaining_faculty = site.data.members.faculty | slice: 1, site.data.members.faculty.size %}
+{% if remaining_faculty.size > 0 %}
   <div class="faculty-grid">
     {% for faculty in remaining_faculty %}
     <div class="faculty-card">
@@ -489,8 +492,9 @@ nav_order: 7
   <h2 class="subsection-title">在读学生</h2>
 
   <!-- 博士研究生 -->
-  {% assign phd_students = site.data.members.current | where: "degree", "博士研究生" %}
-  {% if phd_students.size > 0 %}
+
+{% assign phd_students = site.data.members.current | where: "degree", "博士研究生" %}
+{% if phd_students.size > 0 %}
   <h3 style="font-family: 'Times New Roman', SimSun, serif; font-size: 18px; color: #555; margin: 30px 0 15px 0;">博士研究生</h3>
   <div class="students-grid">
     {% assign sorted_phd = phd_students | sort: "year" %}
@@ -516,8 +520,9 @@ nav_order: 7
   {% endif %}
 
   <!-- 硕士研究生 -->
-  {% assign ms_students = site.data.members.current | where: "degree", "硕士研究生" %}
-  {% if ms_students.size > 0 %}
+
+{% assign ms_students = site.data.members.current | where: "degree", "硕士研究生" %}
+{% if ms_students.size > 0 %}
   <h3 style="font-family: 'Times New Roman', SimSun, serif; font-size: 18px; color: #555; margin: 30px 0 15px 0;">硕士研究生</h3>
   <div class="students-grid">
     {% assign sorted_ms = ms_students | sort: "year" %}
@@ -546,8 +551,9 @@ nav_order: 7
   <h2 class="subsection-title">已毕业学生</h2>
 
   <!-- 已毕业博士研究生 -->
-  {% assign graduated_phd = site.data.members.graduated | where: "degree", "博士研究生" %}
-  {% if graduated_phd.size > 0 %}
+
+{% assign graduated_phd = site.data.members.graduated | where: "degree", "博士研究生" %}
+{% if graduated_phd.size > 0 %}
   <h3 style="font-family: 'Times New Roman', SimSun, serif; font-size: 18px; color: #555; margin: 30px 0 15px 0;">博士研究生</h3>
   <div class="students-grid">
     {% assign sorted_graduated_phd = graduated_phd | sort: "year" %}
@@ -579,8 +585,9 @@ nav_order: 7
   {% endif %}
 
   <!-- 已毕业硕士研究生 -->
-  {% assign graduated_ms = site.data.members.graduated | where: "degree", "硕士研究生" %}
-  {% if graduated_ms.size > 0 %}
+
+{% assign graduated_ms = site.data.members.graduated | where: "degree", "硕士研究生" %}
+{% if graduated_ms.size > 0 %}
   <h3 style="font-family: 'Times New Roman', SimSun, serif; font-size: 18px; color: #555; margin: 30px 0 15px 0;">硕士研究生</h3>
   <div class="students-grid">
     {% assign sorted_graduated_ms = graduated_ms | sort: "year" %}

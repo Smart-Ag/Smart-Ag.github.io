@@ -118,14 +118,16 @@ nav_order: 2
   </div>
 
   <!-- 分隔线（除最后一条外） -->
-  {% unless forloop.last %}
-    <hr class="my-5">
-  {% endunless %}
 
-  {% endfor %}
+{% unless forloop.last %}
+<hr class="my-5">
+{% endunless %}
+
+{% endfor %}
 </div>
 
 <!-- 如果没有任何 News -->
+
 {% if sorted_news.size == 0 %}
   <div class="text-center py-5">
     <i class="fas fa-newspaper fa-3x text-muted mb-3"></i>

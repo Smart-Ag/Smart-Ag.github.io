@@ -45,9 +45,7 @@
     <div class="links">
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm btn-pdf" target="_blank">
-            <i class="fas fa-file-pdf"></i> PDF
-          </a>
+          <a href="{{ entry.pdf }}" class="btn btn-sm btn-pdf" target="_blank"> <i class="fas fa-file-pdf"></i> PDF </a>
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm btn-pdf" target="_blank">
             <i class="fas fa-file-pdf"></i> PDF
@@ -56,123 +54,121 @@
       {% endif %}
 
       {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm btn-doi" target="_blank">
-          <i class="fas fa-external-link-alt"></i> DOI
-        </a>
+        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm btn-doi" target="_blank"> <i class="fas fa-external-link-alt"></i> DOI </a>
       {% endif %}
     </div>
   </div>
 </div>
 
 <style>
-.publication-item {
-  margin-bottom: 1.5rem;
-  padding: 1.2rem;
-  border-left: 4px solid #007acc;
-  background-color: white;
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  transition: all 0.3s ease;
-}
+  .publication-item {
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    border-left: 4px solid #007acc;
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
 
-.publication-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
+  .publication-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
 
-/* 标题字体设置 */
-.publication-item .title {
-  /* 使用font-family堆栈：Times New Roman适用于英文，黑体/SimHei适用于中文 */
-  font-family: "Times New Roman", Times, serif, "黑体", "SimHei", "Microsoft YaHei", sans-serif;
-  font-size: 1.2rem; /* 增大字号，原来可能是1.05rem */
-  font-weight: 600;
-  margin-bottom: 0.4rem;
-  color: #2c3e50;
-  line-height: 1.5; /* 增加行高，使大字体更易读 */
-  text-align: left;
-}
+  /* 标题字体设置 */
+  .publication-item .title {
+    /* 使用font-family堆栈：Times New Roman适用于英文，黑体/SimHei适用于中文 */
+    font-family: 'Times New Roman', Times, serif, '黑体', 'SimHei', 'Microsoft YaHei', sans-serif;
+    font-size: 1.2rem; /* 增大字号，原来可能是1.05rem */
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #2c3e50;
+    line-height: 1.5; /* 增加行高，使大字体更易读 */
+    text-align: left;
+  }
 
-/* 确保中文内容使用黑体 */
-.publication-item .title:lang(zh) {
-  font-family: "黑体", "SimHei", "Microsoft YaHei", "Times New Roman", Times, serif;
-}
+  /* 确保中文内容使用黑体 */
+  .publication-item .title:lang(zh) {
+    font-family: '黑体', 'SimHei', 'Microsoft YaHei', 'Times New Roman', Times, serif;
+  }
 
-/* 如果标题有链接 */
-.publication-item .title a {
-  color: inherit;
-  text-decoration: none;
-  font-family: inherit; /* 继承父元素的字体设置 */
-}
+  /* 如果标题有链接 */
+  .publication-item .title a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit; /* 继承父元素的字体设置 */
+  }
 
-.publication-item .title a:hover {
-  color: #007acc;
-}
+  .publication-item .title a:hover {
+    color: #007acc;
+  }
 
-.publication-item .author {
-  color: #555;
-  font-size: 0.95rem;
-  margin-bottom: 0.3rem;
-  line-height: 1.4;
-}
+  .publication-item .author {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+  }
 
-.publication-item .periodical {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 0.8rem;
-  line-height: 1.5;
-}
+  .publication-item .periodical {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+  }
 
-.publication-item .periodical em {
-  font-style: italic;
-  color: #444;
-}
+  .publication-item .periodical em {
+    font-style: italic;
+    color: #444;
+  }
 
-/* 链接按钮样式 */
-.publication-item .links {
-  margin-top: 0.8rem;
-}
+  /* 链接按钮样式 */
+  .publication-item .links {
+    margin-top: 0.8rem;
+  }
 
-.publication-item .links .btn {
-  margin-right: 0.5rem;
-  margin-bottom: 0.3rem;
-  font-size: 0.85rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  text-decoration: none;
-  display: inline-block;
-  border: 1px solid;
-}
+  .publication-item .links .btn {
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+  }
 
-.publication-item .links .btn i {
-  margin-right: 0.3rem;
-}
+  .publication-item .links .btn i {
+    margin-right: 0.3rem;
+  }
 
-/* PDF按钮样式 */
-.publication-item .links .btn-pdf {
-  color: #d32f2f;
-  border-color: #d32f2f;
-  background-color: transparent;
-}
+  /* PDF按钮样式 */
+  .publication-item .links .btn-pdf {
+    color: #d32f2f;
+    border-color: #d32f2f;
+    background-color: transparent;
+  }
 
-.publication-item .links .btn-pdf:hover {
-  color: white;
-  background-color: #d32f2f;
-  border-color: #d32f2f;
-}
+  .publication-item .links .btn-pdf:hover {
+    color: white;
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+  }
 
-/* DOI按钮样式 */
-.publication-item .links .btn-doi {
-  color: #1976d2;
-  border-color: #1976d2;
-  background-color: transparent;
-}
+  /* DOI按钮样式 */
+  .publication-item .links .btn-doi {
+    color: #1976d2;
+    border-color: #1976d2;
+    background-color: transparent;
+  }
 
-.publication-item .links .btn-doi:hover {
-  color: white;
-  background-color: #1976d2;
-  border-color: #1976d2;
-}
+  .publication-item .links .btn-doi:hover {
+    color: white;
+    background-color: #1976d2;
+    border-color: #1976d2;
+  }
 </style>
 
 <!-- 如果需要在所有浏览器中确保字体显示，可以添加字体引入 -->
