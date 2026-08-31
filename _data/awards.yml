@@ -1,6 +1,79 @@
 # _data/awards.yml
 # 2026年奖项
 
+- title: "基于地块分割与中点投影行提取的无人机玉米出苗率检测系统"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 7
+  level_name: "国家级优秀奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "魏欣"
+
+- title: "基于 RGB-D 视觉感知与果萼关键点构建几何轴线的苹果幼果尺寸在线估计系统"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 2
+  level_name: "国家级二等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "马小钰"
+
+- title: "基于果实穗梗成熟度的葡萄采摘系统"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 7
+  level_name: "国家级优秀奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "黄琦宸"
+
+- title: "基于远近景相机协同定位的双臂猕猴桃智能采摘机器人"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 1
+  level_name: "国家级一等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "龚其林"
+
+- title: "基于手机异构双目的苹果树表型检测系统"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 3
+  level_name: "国家级三等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "陈又铭"
+
+- title: "基于机器视觉与模型渐进学习的猕猴桃剪枝机器人"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 1
+  level_name: "国家级一等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "豆宇飞"
+
+- title: "基于多目标感知的鲜杏自动定向切分去核装置"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 1
+  level_name: "国家级一等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "杨晓鹏"
+  note: "CRAIC2026-NF-QQ2UVP"
+
+- title: "猕猴桃双臂协同激光稳梢摘心机器人"
+  type: "学生"
+  year: 2026
+  month: 7
+  level: 1
+  level_name: "国家级一等奖"
+  competition: "第二十八届中国机器人及人工智能大赛"
+  participant: "赵志广"
+
 - title: "Design of a laser-based clamping endeflector for kiwifruit summer pinching under dynamic field conditions"
   type: "学生"
   year: 2026
