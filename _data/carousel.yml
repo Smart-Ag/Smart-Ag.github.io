@@ -2,6 +2,7 @@
 # 图片存放在 assets/img/carousel/ 文件夹下
 
 - image: slide17.jpg
+- image: slide21.png
 - image: slide1.png
 - image: slide2.png
 - image: slide3.png
@@ -22,4 +23,4 @@
 - image: slide10.png
 - image: slide11.jpg
 - image: slide12.jpg
-- image: slide20.png
+
