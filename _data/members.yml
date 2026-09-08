@@ -89,6 +89,18 @@ current:
     photo: "/assets/img/members/hwy.jpg"
     research: ""
 
+  - year: "2026级"
+    name: "卢珍"
+    degree: "博士研究生"
+    photo: "/assets/img/members/lz.jpg"
+    research: ""
+
+  - year: "2026级"
+    name: "谷润泽"
+    degree: "博士研究生"
+    photo: "/assets/img/members/grz.jpg"
+    research: ""
+
   # 硕士研究生（2024级）
   - year: "2024级"
     name: "牛世奥"
