@@ -278,9 +278,11 @@ current:
     photo: "/assets/img/members/zt.png"
     research: ""
 
-
-
-
+  - year: "2026级"
+    name: "许岩松"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/xys.png"
+    research: ""
 
 
 
