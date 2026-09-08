@@ -254,9 +254,17 @@ current:
     photo: "/assets/img/members/hzq.jpg"
     research: ""
 
+  - year: "2026级"
+    name: "李颖"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/ly.jpg"
+    research: ""
 
-
-
+  - year: "2026级"
+    name: "朱挺"
+    degree: "硕士研究生"
+    photo: "/assets/img/members/zt.png"
+    research: ""
 
 
 
