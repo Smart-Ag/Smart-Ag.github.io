@@ -6,7 +6,7 @@ img: assets/img/Conferences/2026_06_23-1.jpg
 importance: 1
 category: Conferences
 related_publications: false
-date: 2026-05-07
+date: 2026-06-23
 ---
 
 <!-- 仅新增标题字体大小样式，其余样式保留不变 -->
