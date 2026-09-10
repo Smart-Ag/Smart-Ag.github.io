@@ -262,6 +262,11 @@ ninja.data = [{
           description: "实验室全体成员参与",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Presentions_2026.09.05/";
+            },},{id: "projects-农业传感与芒果采摘机器人的发展与应用",
+          title: '农业传感与芒果采摘机器人的发展与应用',
+          description: "澳大利亚中央昆士兰大学Kerry Walsh教授",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Conferences_2026-09-07/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
