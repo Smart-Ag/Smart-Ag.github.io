@@ -267,6 +267,11 @@ ninja.data = [{
           description: "澳大利亚中央昆士兰大学Kerry Walsh教授",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Conferences_2026-09-07/";
+            },},{id: "projects-实验室组会",
+          title: '实验室组会',
+          description: "实验室全体成员参与",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Presentions_2026.09.10/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
