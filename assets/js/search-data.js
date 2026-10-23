@@ -14,6 +14,13 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
+            window.location.href = "/en/cv/";
+          },
+        },{id: "nav-resume",
+          title: "Resume",
+          description: "",
+          section: "Navigation",
+          handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-publications",
@@ -36,6 +43,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/scholarly%20seminars";
+          },
+        },{id: "nav-scholarly-seminars",
+          title: "Scholarly Seminars",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/seminars/";
+          },
+        },{id: "nav-activities",
+          title: "Activities",
+          description: "Lab group activities",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/activities/";
           },
         },{id: "nav-activities",
           title: "Activities",
@@ -73,6 +94,20 @@ ninja.data = [{
             window.location.href = "/members/";
           },
         },{id: "dropdown-contact-us",
+              title: "Contact Us",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/en/contact/";
+              },
+            },{id: "dropdown-student-recruitment",
+              title: "Student Recruitment",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/en/recruitment/";
+              },
+            },{id: "dropdown-contact-us",
               title: "Contact Us",
               description: "",
               section: "Dropdown",
