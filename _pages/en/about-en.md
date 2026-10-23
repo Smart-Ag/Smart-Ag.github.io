@@ -59,6 +59,7 @@ nav: false
 
 <ul style="font-size: 18px; line-height: 1.9;">
   <li><a href="{{ '/en/publications/' | relative_url }}">Publications</a></li>
+  <li><a href="{{ '/en/members/' | relative_url }}">Members</a></li>
   <li><a href="{{ '/en/news/' | relative_url }}">Lab News</a></li>
   <li><a href="{{ '/en/contact/' | relative_url }}">Contact Us</a></li>
 </ul>

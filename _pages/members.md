@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /members/
+alt_url: /en/members/
 title: Members
 description: Team members of AgRobot
 nav: true
