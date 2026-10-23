@@ -1,0 +1,213 @@
+# _data/en/seminars.yml
+# English mirror of the seminar cards on the Chinese "Scholarly Seminars" page,
+# which is driven by _projects/*.md (categories: Conferences / Presentations).
+
+- date: 2026-09-07
+  category: Conferences
+  title: "Agricultural sensing and mango harvesting robots: development and applications"
+  speaker: "Prof. Kerry Walsh, Central Queensland University, Australia"
+  img: "/assets/img/Conferences/2026_09_07-1.jpg"
+
+- date: 2026-06-23
+  category: Conferences
+  title: "Real-time robotic field phenotyping"
+  speaker: "Prof. Changying \"Charlie\" LI, University of Florida, USA"
+  img: "/assets/img/Conferences/2026_06_23-1.jpg"
+
+- date: 2026-05-07
+  category: Conferences
+  title: "AI technologies for smart agriculture: research progress"
+  speaker: "Dr. Jayme Garcia Arnal BARBEDO, Digital Agriculture Center, Embrapa, Brazil"
+  img: "/assets/img/Conferences/2026_05_07-1.png"
+
+- date: 2026-03-06
+  category: Conferences
+  title: "Research progress of fully autonomous robots for orchards"
+  speaker: "Prof. Fernando Auat CHEEIN, Harper Adams University, UK"
+  img: "/assets/img/Conferences/2026_03_06-1.png"
+
+- date: 2026-01-30
+  category: Conferences
+  title: "Research progress of AI-based crop status monitoring"
+  speaker: "Prof. Spyros FOUNTAS, Agricultural University of Athens, Greece"
+  img: "/assets/img/Conferences/2026_01_30-1.jpg"
+
+- date: 2026-01-23
+  category: Conferences
+  title: "Variability and digitalization trade-offs in smart agriculture"
+  speaker: "Prof. Francesco MARINELLO, University of Padova, Italy"
+  img: "/assets/img/Conferences/2026_01_23-1.png"
+
+- date: 2026-01-09
+  category: Conferences
+  title: "AI and robotics empowering specialty crop management: technology and research progress"
+  speaker: "Prof. Yiannis AMPATZIDIS, University of Florida, USA"
+  img: "/assets/img/Conferences/2026_01_09-1.jpg"
+
+- date: 2026-01-18
+  category: Conferences
+  title: "Perception technologies for autonomous transport in intensive orchards"
+  speaker: "Assoc. Prof. Nikita ANDRIYANOV, Financial University under the Government of the Russian Federation"
+  img: "/assets/img/Conferences/Nikita_ANDRIYANOV.jpg"
+
+- date: 2026-01-18
+  category: Conferences
+  title: "Parameter optimization and efficient fine-tuning of large language models in agricultural-industrial complexes"
+  speaker: "Assoc. Prof. Petr NIKITIN, Financial University under the Government of the Russian Federation"
+  img: "/assets/img/Conferences/Petr_NIKITIN.jpg"
+
+- date: 2026-01-18
+  category: Conferences
+  title: "Artificial intelligence applications in modern apple orchards"
+  speaker: "Prof. Vladimir I. SOLOVIEV, Vice-Rector, State University of Land Use Planning, Russia"
+  img: "/assets/img/Conferences/Vladimir_I._SOLOVIEV.jpg"
+
+- date: 2026-09-30
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_09_30.jpg"
+
+- date: 2026-09-24
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_09_24.jpg"
+
+- date: 2026-09-10
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_09_10.jpg"
+
+- date: 2026-09-05
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_09_05.jpg"
+
+- date: 2026-08-28
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_08_28.jpg"
+
+- date: 2026-08-12
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_08_12.jpg"
+
+- date: 2026-08-03
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_08_03.jpg"
+
+- date: 2026-07-27
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_07_27.jpg"
+
+- date: 2026-07-20
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_07_20.jpg"
+
+- date: 2026-07-13
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_07_13.jpg"
+
+- date: 2026-07-06
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_07_06.jpg"
+
+- date: 2026-06-28
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_06_28.jpg"
+
+- date: 2026-06-23
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_06_23.jpg"
+
+- date: 2026-06-14
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_06_14.jpg"
+
+- date: 2026-06-07
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_06_07.jpg"
+
+- date: 2026-05-24
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_05_24.jpg"
+
+- date: 2026-05-14
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_05_14.jpg"
+
+- date: 2026-05-06
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_05_06.png"
+
+- date: 2026-04-16
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_04_16.jpg"
+
+- date: 2026-04-02
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_04_02.jpg"
+
+- date: 2026-03-26
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_03_26.jpg"
+
+- date: 2026-03-08
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_03_08.jpg"
+
+- date: 2026-03-02
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_03_02.jpg"
+
+- date: 2026-02-09
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_02_09.jpg"
+
+- date: 2026-01-25
+  category: Presentations
+  title: "Lab Group Meeting"
+  speaker: "All lab members"
+  img: "/assets/img/Presentations/2026_01_25.jpg"

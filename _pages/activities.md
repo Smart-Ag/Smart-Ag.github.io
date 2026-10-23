@@ -2,6 +2,7 @@
 layout: page
 title: Activities
 permalink: /activities/
+alt_url: /en/activities/
 description: 实验室集体活动
 nav: true
 nav_order: 5

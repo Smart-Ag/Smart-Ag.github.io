@@ -2,6 +2,7 @@
 layout: page
 title: Student Recruitment
 permalink: /student_recruitment/
+alt_url: /en/recruitment/
 nav: false
 ---
 

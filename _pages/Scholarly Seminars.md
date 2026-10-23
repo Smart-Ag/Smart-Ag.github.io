@@ -2,6 +2,7 @@
 layout: page
 title: Scholarly Seminars
 permalink: /scholarly seminars
+alt_url: /en/seminars/
 description: 实验室例会与学术报告
 nav: true
 nav_order: 4
