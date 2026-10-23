@@ -53,6 +53,13 @@ ninja.data = [{
           },
         },{id: "nav-members",
           title: "Members",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/en/members/";
+          },
+        },{id: "nav-members",
+          title: "Members",
           description: "Team members of AgRobot",
           section: "Navigation",
           handler: () => {
