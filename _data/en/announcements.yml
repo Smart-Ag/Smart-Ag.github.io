@@ -1,0 +1,74 @@
+# _data/en/announcements.yml
+# English version of Lab News. Mirrors _data/announcements.yml (newest first).
+# zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
+# Rule: the English site shows ONLY entries present here, so it stays pure English.
+
+- zh_title: '团队研发的“猕猴桃多传感器协同智能冬剪机器人”入选2026年度农业“火花技术”培育成果库，祝贺！'
+  title: 'Our team''s "Multi-sensor Collaborative Intelligent Winter Pruning Robot for Kiwifruit" was selected into the 2026 Agricultural "Spark Technology" Incubation Achievement Pool. Congratulations!'
+  link: 'https://agrihot.com/items/2223'
+
+- zh_title: '团队负责人傅隆生教授应邀将作为 Plenary Speaker 参加泰国农业大学（Kasetsart University）举办的 The International Conference on Durian and Economic Tropical Fruit Crops。'
+  title: 'Prof. Longsheng Fu has been invited as a Plenary Speaker to The International Conference on Durian and Economic Tropical Fruit Crops, hosted by Kasetsart University, Thailand.'
+  link: 'https://icdef2027.org/events/ICDEF2027'
+
+- zh_title: '校长吴普特教授看望慰问团队新进教师江艾莲博士。'
+  title: 'President Wu Pute visited and welcomed Dr. Jiang Ailian, a new faculty member of our team.'
+  link: 'https://news.nwsuaf.edu.cn/xnxw/de64efe66af84938a4ecc8de463ae1e9.htm'
+
+- zh_title: '2026年9月7日，团队邀请澳大利亚中央昆士兰大学Kerry Walsh教授作“From Xylem Hydraulics to Mango Machines: A Story of Curiosity and Need”学术报告。'
+  title: 'On 7 September 2026, the team invited Prof. Kerry Walsh from Central Queensland University, Australia, to give a talk titled "From Xylem Hydraulics to Mango Machines: A Story of Curiosity and Need".'
+  link: 'https://cmee.nwsuaf.edu.cn/xwzx/xydt/90ba1de33e8b43c4bc696049f0a71ed9.htm'
+
+- zh_title: '2026年9月1日，团队邀请荷兰瓦赫宁根大学Mahboubeh KEYVANARA助理教授作“Robotic Control and Manipulation in Agricultural Settings, Challenge and Future Vision”学术报告。'
+  title: 'On 1 September 2026, the team invited Assistant Prof. Mahboubeh Keyvanara from Wageningen University, the Netherlands, to give a talk titled "Robotic Control and Manipulation in Agricultural Settings, Challenge and Future Vision".'
+  link: 'https://cmee.nwsuaf.edu.cn/kxyj/xsjl/f5d7ac173d754c699e7392a494bc2ea4.htm'
+
+- zh_title: 'Leilei''s paper "Fruiting-shoot diameter estimation using geometric boundary refinement for robotic selective pollination in kiwifruit orchards" was accepted by European Journal of Agronomy. Congratulations!'
+  title: 'Leilei''s paper "Fruiting-shoot diameter estimation using geometric boundary refinement for robotic selective pollination in kiwifruit orchards" was accepted by European Journal of Agronomy. Congratulations!'
+
+- zh_title: 'Lizhi''s paper "Point transformer-based 3D segmentation and phenotypic trait analysis of cotton plants with foliage" was accepted by Artificial Intelligence in Agriculture. Congratulations!'
+  title: 'Lizhi''s paper "Point transformer-based 3D segmentation and phenotypic trait analysis of cotton plants with foliage" was accepted by Artificial Intelligence in Agriculture. Congratulations!'
+
+- zh_title: 'Bryan''s paper "Occlusion-aware pinching point positioning using shoot morphology for robotic summer pruning of kiwifruit" was accepted by Computers and Electronics in Agriculture. Congratulations!'
+  title: 'Bryan''s paper "Occlusion-aware pinching point positioning using shoot morphology for robotic summer pruning of kiwifruit" was accepted by Computers and Electronics in Agriculture. Congratulations!'
+
+- zh_title: 'Jiabo''s paper "A novel telescopic Cartesian manipulator for kiwifruit harvesting with hybrid model–vision error compensation" was accepted by Agriculture. Congratulations!'
+  title: 'Jiabo''s paper "A novel telescopic Cartesian manipulator for kiwifruit harvesting with hybrid model–vision error compensation" was accepted by Agriculture. Congratulations!'
+
+- zh_title: 'Leilei''s paper "Dual-scale flower detection and homography-guided cluster matching for robotic pollination in trellised kiwifruit orchards" was accepted by Biosystems Engineering. Congratulations!'
+  title: 'Leilei''s paper "Dual-scale flower detection and homography-guided cluster matching for robotic pollination in trellised kiwifruit orchards" was accepted by Biosystems Engineering. Congratulations!'
+
+- zh_title: '2026年8月25日，团队负责人傅隆生教授应邀参加中国农学会智慧农业分会2026智慧农业产学研生态年会，作题为《农机农艺融合驱动的猕猴桃全程智能化生产》的主旨报告，分享团队在特色果园智能化生产与农业机器人领域的最新研究进展。'
+  title: 'On 25 August 2026, Prof. Longsheng Fu was invited to the 2026 Annual Conference of the Smart Agriculture Branch of the China Association of Agricultural Science Societies, where he delivered a keynote "Fully Intelligent Kiwifruit Production Driven by Machinery–Agronomy Integration", presenting the team''s latest advances in intelligent production for specialty orchards and agricultural robotics.'
+  link: 'https://mp.weixin.qq.com/s/Zhjl1l759hfn_91v-wvC7w'
+
+- zh_title: '2026年8月22日，团队负责人傅隆生教授应邀参加中国科技期刊卓越行动计划办公室主办、中国农业工程学会承办的农林领域主编荟活动“提升农林领域期刊学术引领力、促进一流学会与一流期刊同频共振”，做了主旨报告“从科学家到主编：COMPAG办刊实践及对农业科技期刊高质量发展的启示”。'
+  title: 'On 22 August 2026, Prof. Longsheng Fu was invited to the Editors-in-Chief Forum for agriculture and forestry journals, hosted by the Office of the Excellence Action Plan for China''s STM Journals and organized by the Chinese Society of Agricultural Engineering, and delivered a keynote "From Scientist to Editor-in-Chief: Publishing COMPAG and Its Implications for High-Quality Development of Agricultural Journals".'
+  link: 'https://mp.weixin.qq.com/s/3pDHam_jChKd2v314hOeEQ'
+
+- zh_title: '2026年8月17日至21日，团队负责人傅隆生教授应邀访问马来西亚博特拉大学（Universiti Putra Malaysia, UPM），开展为期一周的访问讲学与学术交流，围绕智慧果园、人工智能与农业自动化作系列专题报告，并通过科研交流、论文指导与合作研讨进一步深化双方在智慧农业领域的国际合作。'
+  title: 'From 17 to 21 August 2026, Prof. Longsheng Fu visited Universiti Putra Malaysia (UPM) for a one-week academic exchange, giving a series of lectures on smart orchards, artificial intelligence and agricultural automation, and further deepening international cooperation through research discussions, paper supervision and joint seminars.'
+  link: 'https://www.facebook.com/dbaeupm/posts/-empowering-agricultural-innovation-with-ai-smart-farming-the-department-of-biol/1681361297049835/'
+
+- zh_title: '2026年8月15日，团队负责人傅隆生教授应邀访问泰国农业大学（Kasetsart University），与该校科研团队围绕智慧农业、智能传感与农业智能技术开展学术交流，进一步加强团队与泰国高校在相关领域的学术联系与国际合作基础。'
+  title: 'On 15 August 2026, Prof. Longsheng Fu visited Kasetsart University, Thailand, to exchange ideas with its research team on smart agriculture, intelligent sensing and agricultural intelligence technologies, further strengthening academic links and international cooperation with Thai universities.'
+  link: 'https://www.facebook.com/chatchawal.wongchoosuk/posts/28318541744406066/'
+
+- zh_title: '2026年8月，硕士研究生牛世奥带队获得第二十一届中国研究生电子设计竞赛西北赛区二等奖，祝贺！'
+  title: 'In August 2026, master''s student Shiao Niu led the team to a second prize in the Northwest China regional round of the 21st China Graduate Electronic Design Competition. Congratulations!'
+
+- zh_title: '2026年8月，硕士研究生家博带队获得第二十一届中国研究生电子设计竞赛西北赛区二等奖，祝贺！'
+  title: 'In August 2026, master''s student Jiabo led the team to a second prize in the Northwest China regional round of the 21st China Graduate Electronic Design Competition. Congratulations!'
+
+- zh_title: '2026年8月，博士研究生豆宇飞带队获得第二十一届中国研究生电子设计竞赛国家级二等奖，祝贺！'
+  title: 'In August 2026, PhD student Yufei Dou led the team to a national second prize in the 21st China Graduate Electronic Design Competition. Congratulations!'
+
+- zh_title: '2026年7月24日，团队负责人傅隆生教授应邀访问越南国家大学胡志明市分校信息技术大学（UIT），围绕人工智能、计算机视觉、农业机器人与智慧农业开展深入学术交流，并就联合科研、国际论文合作及访问教授计划等进行研讨，进一步拓展团队在东南亚地区的国际合作网络。'
+  title: 'On 24 July 2026, Prof. Longsheng Fu visited the University of Information Technology, Vietnam National University Ho Chi Minh City (UIT), for in-depth discussions on artificial intelligence, computer vision, agricultural robotics and smart agriculture, as well as joint research, international paper collaboration and visiting professorship programmes.'
+  link: 'https://www.uit.edu.vn/bai-viet/uit-mo-rong-ket-noi-hoc-thuat-trong-linh-vuc-ai-robot-va-nong-nghiep-thong-minh'
+
+- zh_title: '2026年7月，硕士研究生龚其林带队获得第二十八届中国机器人及人工智能大赛国家级一等奖，祝贺！'
+  title: 'In July 2026, master''s student Qilin Gong led the team to a national first prize in the 28th China Robot and Artificial Intelligence Competition. Congratulations!'
+
+- zh_title: '2026年7月，博士研究生豆宇飞带队获得第二十八届中国机器人及人工智能大赛国家级一等奖，祝贺！'
+  title: 'In July 2026, PhD student Yufei Dou led the team to a national first prize in the 28th China Robot and Artificial Intelligence Competition. Congratulations!'

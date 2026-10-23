@@ -2,6 +2,7 @@
 layout: about
 title: AgRobot
 permalink: /
+alt_url: /en/
 
 # 控制模块显示
 announcements:

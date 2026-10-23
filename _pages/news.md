@@ -2,6 +2,7 @@
 layout: page
 title: News
 permalink: /news/
+alt_url: /en/news/
 description: "Latest news and announcements"
 nav: false
 nav_order: 2

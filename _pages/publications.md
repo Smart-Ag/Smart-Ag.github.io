@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /publications/
+alt_url: /en/publications/
 title: Publications
 description:
 nav: true
