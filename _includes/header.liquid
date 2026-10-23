@@ -42,7 +42,7 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {#- 记录当前页面语言，供导航过滤与语言切换使用 -#}
+          {% comment %} 记录当前页面语言，供导航过滤与语言切换使用 {% endcomment %}
           {% assign current_lang = page.lang | default: 'zh' %}
           {% assign is_home = false %}
           {% if page.permalink == '/' %}{% assign is_home = true %}{% endif %}
