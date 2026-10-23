@@ -3,6 +3,10 @@
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 # Rule: the English site shows ONLY entries present here, so it stays pure English.
 
+- zh_title: '团队负责人傅隆生教授将应邀参加“建设世界一流农业科技期刊——以高水平期刊赋能农业科技自立自强”活动，分享科学奖办刊经验。'
+  title: 'Prof. FU Longsheng has been invited to the event "Building World-Class Agricultural Sci-Tech Journals — Empowering Agricultural Sci-Tech Self-Reliance with High-Level Journals", where he will share his experience in running a scientific journal.'
+  link: 'https://caass.caas.cn/xwzx/tzgg/75b07bbda3b8471a8d9a7a04f3513a52.htm'
+
 - zh_title: '团队研发的“猕猴桃多传感器协同智能冬剪机器人”入选2026年度农业“火花技术”培育成果库，祝贺！'
   title: 'Our team''s "Multi-sensor Collaborative Intelligent Winter Pruning Robot for Kiwifruit" was selected into the 2026 Agricultural "Spark Technology" Incubation Achievement Pool. Congratulations!'
   link: 'https://agrihot.com/items/2223'
