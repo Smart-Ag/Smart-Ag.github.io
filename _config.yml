@@ -4,7 +4,7 @@
 
 title: Smart Agrobot # the website title (if blank, full name will be used instead)
 first_name: 傅隆生
-author_en: Longsheng Fu # English name shown on /en/ pages (footer, meta author)
+author_en: FU Longsheng # English name shown on /en/ pages (footer, meta author); surname in CAPS
 middle_name:
 last_name:
 contact_note:
