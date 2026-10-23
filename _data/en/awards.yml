@@ -1,0 +1,889 @@
+# _data/en/awards.yml
+# English version of _data/awards.yml — same entries, same order (newest first).
+# type: faculty | student
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National Excellence Award"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "WEI Xin"
+  title: "UAV-based maize emergence rate detection system using plot segmentation and midpoint-projection row extraction"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National Second Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "MA Xiaoyu"
+  title: "Online apple fruitlett size estimation using RGB-D perception and a geometric axis from calyx keypoints"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National Excellence Award"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "HUANG Qichen"
+  title: "Grape harvesting system based on the ripeness of the fruit peduncle"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "GONG Qilin"
+  title: "Dual-arm kiwifruit harvesting robot with coarse–fine camera cooperative localization"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National Third Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "CHEN Youming"
+  title: "Apple tree phenotyping system using heterogeneous stereo cameras on smartphones"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "DOU Yufei"
+  title: "Kiwifruit pruning robot based on machine vision and progressive model learning"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "YANG Xiaopeng"
+  title: "Automatic orientation, halving and pitting device for fresh apricots with multi-target perception"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "ZHAO Zhiguang"
+  title: "Dual-arm cooperative laser shoot-stabilizing tipping robot for kiwifruit"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "28th China Robot and Artificial Intelligence Competition"
+  participant: "JIA Bo"
+  title: "Kiwifruit canopy density perception and counting under under-row upward-view spatial constraints"
+
+- year: 2026
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "21st China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "NIU Shiao"
+  title: "Full-process dual-arm kiwifruit platform with coarse–fine camera cooperation and ROS2 distributed architecture (Xinyate vehicle)"
+
+- year: 2026
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "21st China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "JIA Bo"
+  title: "Telescopic harvesting manipulator and end-effector for tilted kiwifruit perception"
+
+- year: 2026
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "21st China Graduate Electronic Design Competition"
+  participant: "DOU Yufei"
+  title: "Dual-arm cooperative laser shoot-stabilizing tipping robot for kiwifruit"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "14th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "ZHAO Zhiguang"
+  title: "Dual-arm cooperative laser shoot-stabilizing tipping robot for kiwifruit"
+
+- year: 2026
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "14th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "CHEN Youming"
+  title: "Dual-arm kiwifruit harvesting robot with coarse–fine camera cooperative localization"
+
+- year: 2026
+  month: 6
+  type: student
+  prize: "National First Prize"
+  competition: "National College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "Bryan Gilbert Murengami, GUO Wenhao, Lamin L. Janneh"
+  title: "Design of a laser-based clamping end-effector for kiwifruit summer pinching under dynamic field conditions"
+
+- year: 2026
+  month: 6
+  type: student
+  prize: "National First Prize"
+  competition: "National College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "JIA Bo, MA Xiaoyu, WEI Xin"
+  title: "Dual-arm cooperative precision electrostatic targeted pollination robot for kiwifruit"
+
+- year: 2026
+  month: 6
+  type: student
+  prize: "National Second Prize"
+  competition: "National College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "GONG Qilin, NIU Shiao, HUANG Juncai, HUANG Qichen, ZHAO Zhiguang"
+  title: "Dual-arm kiwifruit harvesting robot with coarse–fine camera cooperative localization"
+
+- year: 2026
+  month: 6
+  type: student
+  prize: "National Second Prize"
+  competition: "National College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "LUO Ruichao, YANG Xiaopeng, LI Guotong, XIE Jiaqing, MAO Wulan"
+  title: "Automatic orientation and precision pitting device for fresh apricots based on multi-target visual perception"
+
+- year: 2026
+  month: 3
+  type: faculty
+  prize: "Highly Cited Researcher"
+  title: "Listed in Elsevier's China Highly Cited Researchers"
+  note: "Prof. FU Longsheng was listed in the Elsevier 2025 China Highly Cited Researchers ranking."
+
+- year: 2026
+  month: 1
+  type: faculty
+  prize: "Top 1% Highly Cited"
+  title: "Listed in the 2025 National Top 1% Highly Cited Researchers"
+  note: "Prof. FU Longsheng was listed in the 2025 National Top 1% Highly Cited Researchers ranking."
+
+- year: 2025
+  month: 9
+  type: faculty
+  prize: "World Top 2%"
+  title: "Listed in the World's Top 2% Scientists"
+  note: "Prof. FU Longsheng has been listed in the World's Top 2% Scientists ranking for both 2024 and 2025."
+
+- year: 2025
+  month: 3
+  type: faculty
+  prize: "Highly Cited Researcher"
+  title: "Listed in Elsevier's China Highly Cited Researchers"
+  note: "Prof. FU Longsheng was listed in the Elsevier 2024 China Highly Cited Researchers ranking."
+
+- year: 2025
+  month: 1
+  type: faculty
+  prize: "Top 1% Highly Cited"
+  title: "Listed in the 2024 CNKI Top 1% Highly Cited Researchers"
+  note: "Prof. FU Longsheng was listed in the 2024 CNKI Top 1% Highly Cited Researchers ranking."
+
+- year: 2025
+  month: 6
+  type: student
+  prize: "National Finalist"
+  competition: "7th China Graduate Robot Innovation Design Competition"
+  participant: "ZHANG Mengying"
+  title: "Kiwifruit fruit-thinning robot separating fruit-branch state from force-lever action"
+  note: "The team reached the national final for the third consecutive year — the only one from the university."
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "National Third Prize"
+  competition: "20th China Graduate Electronic Design Competition"
+  participant: "GU Yu"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "DING Yusong"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "NIU Shiao"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "ZHANG Haosen"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "JIANG Liguo"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "ZHANG Mengying"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "20th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "HUANG Juncai"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "4th Annual Conference and Crop Smart Production Technology Postdoctoral Forum"
+  participant: "ZHANG Mengying"
+  title: "Academic presentation"
+
+- year: 2025
+  month: 8
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "4th Annual Conference and Crop Smart Production Technology Postdoctoral Forum"
+  participant: "KONG Shuolin"
+  title: "Academic presentation"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "NIU Shiao"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "ZHANG Haosen"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "ZHANG Jiwei"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National Second Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "HE Leilei"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National Second Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "LUO Ruichao"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "National Second Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition"
+  participant: "SHI Yufei"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "27th China Robot and Artificial Intelligence Competition, Shaanxi Division"
+  participant: "HUANG Juncai"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2025
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "JING Xudong"
+  title: "Outstanding Professional Master's Thesis"
+  note: "2025 university-level outstanding professional master's thesis"
+
+- year: 2025
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "JIANG Hanhui"
+  title: "Outstanding Academic Master's Thesis"
+  note: "2025 university-level outstanding academic master's thesis"
+
+- year: 2025
+  month: 6
+  type: student
+  prize: "University Grand Prize"
+  participant: "JIANG Hanhui"
+  title: "Top Ten Graduate Students"
+  note: "Northwest A&F University Top Ten Graduate Students"
+
+- year: 2024
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "JING Xudong"
+  title: "National Scholarship"
+
+- year: 2024
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "JIANG Hanhui"
+  title: "National Scholarship"
+
+- year: 2024
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "JIANG Liguo"
+  title: "National Scholarship"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "National First Prize"
+  competition: "12th National College Student Optoelectronic Design Competition"
+  participant: "DANG Haojie"
+  title: "National College Student Optoelectronic Design Competition"
+  note: "The highest national award our university has achieved in this competition"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "Provincial First Prize"
+  competition: "12th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "LIU Xiaojuan"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "12th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "ZHANG Haosen"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "12th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "JIANG Liguo"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "12th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "ZHANG Jiwei"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2024
+  month: 7
+  type: student
+  prize: "National Third Prize"
+  competition: "18th China Graduate Electronic Design Competition"
+  participant: "WEI Ruiyang"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2024
+  month: 5
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "MAO Wulan"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2024
+  month: 5
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "SUN Xiaoming"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2024
+  month: 5
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "LIU Guoliang"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2024
+  month: 3
+  type: student
+  prize: "National Second Prize"
+  competition: "9th International College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "XIA Man"
+  title: "International College Student Intelligent Agricultural Equipment Innovation Competition"
+
+- year: 2023
+  month: 12
+  type: student
+  prize: "National First Prize"
+  competition: "National 3D Digital Innovation Design Competition, National Final"
+  participant: "MAO Wulan"
+  title: "National 3D Digital Innovation Design Competition"
+
+- year: 2023
+  month: 12
+  type: student
+  prize: "National Third Prize"
+  competition: "National 3D Digital Innovation Design Competition, National Final"
+  participant: "DANG Haojie"
+  title: "National 3D Digital Innovation Design Competition"
+
+- year: 2023
+  month: 11
+  type: student
+  prize: "University First Prize"
+  participant: "WU Zhenchao"
+  title: "Outstanding College Student"
+
+- year: 2023
+  month: 11
+  type: student
+  prize: "University First Prize"
+  participant: "GAO Changqing, JIANG Hanhui, JING Xudong, CHEN Chi, DANG Haojie"
+  title: "Outstanding College Student"
+
+- year: 2023
+  month: 11
+  type: faculty
+  prize: "Outstanding Achievement Award"
+  title: "Shaanxi Higher Education Science and Technology Research Outstanding Achievement Award"
+  note: "Prof. FU Longsheng's team won the Shaanxi Higher Education Science and Technology Research Outstanding Achievement Award."
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "SUN Xiaoming"
+  title: "National Scholarship"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "FANG Wentai"
+  title: "National Scholarship"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "University Grand Prize"
+  participant: "WU Zhenchao"
+  title: "President's Scholarship"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "University Grand Prize"
+  participant: "GAO Changqing"
+  title: "President's Scholarship"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "Provincial Grand Prize"
+  competition: "National 3D Digital Innovation Design Competition, Shaanxi Division"
+  participant: "MAO Wulan"
+  title: "National 3D Digital Innovation Design Competition"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "National Third Prize"
+  competition: "2023 China Robot Competition, Special Event"
+  participant: "MAO Wulan"
+  title: "China Robot Competition, Special Event"
+
+- year: 2023
+  month: 10
+  type: student
+  prize: "National Third Prize"
+  competition: "2023 China Robot Competition, Special Event"
+  participant: "ZHANG Jiwei"
+  title: "China Robot Competition, Special Event"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "RAICOM Robot Competition — Agricultural Track"
+  participant: "JING Xudong"
+  title: "RAICOM Robot Competition — Agricultural Track"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Third Prize"
+  competition: "RAICOM Robot Competition — Agricultural Track"
+  participant: "CHEN Chi"
+  title: "RAICOM Robot Competition — Agricultural Track"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National First Prize"
+  competition: "RAICOM Robot Competition — Agricultural Track"
+  participant: "JIANG Hanhui"
+  title: "RAICOM Robot Competition — Agricultural Track"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "RAICOM Robot Competition — Agricultural Track"
+  participant: "MAO Wulan"
+  title: "RAICOM Robot Competition — Agricultural Track"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "2023 RAICOM National Final, System Innovation Contest"
+  participant: "DANG Haojie"
+  title: "RAICOM Robot Developer Competition"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "9th \"Internet+\" College Student Innovation and Entrepreneurship Competition, Shaanxi Division"
+  participant: "GAO Changqing"
+  title: "\"Internet+\" College Student Innovation and Entrepreneurship Competition"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Third Prize"
+  competition: "China Graduate Robot Innovation Design Competition"
+  participant: "FANG Wentai"
+  title: "China Graduate Robot Innovation Design Competition"
+
+- year: 2023
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "China Graduate Robot Innovation Design Competition"
+  participant: "DING Yusong"
+  title: "China Graduate Robot Innovation Design Competition"
+  note: "Best result in the university's history at that time"
+
+- year: 2023
+  month: 7
+  type: student
+  prize: "Provincial First Prize"
+  competition: "Chinese College Student Computer Design Competition, Northwest Region"
+  participant: "JIANG Liguo"
+  title: "Chinese College Student Computer Design Competition"
+
+- year: 2023
+  month: 7
+  type: student
+  prize: "Provincial First Prize"
+  competition: "Chinese College Student Computer Design Competition, Northwest Region"
+  participant: "ZHANG Mengying"
+  title: "Chinese College Student Computer Design Competition"
+
+- year: 2023
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "Chinese College Student Computer Design Competition, Northwest Region"
+  participant: "ZHANG Haosen"
+  title: "Chinese College Student Computer Design Competition"
+
+- year: 2023
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "Chinese College Student Computer Design Competition, Northwest Region"
+  participant: "ZHANG Jiwei"
+  title: "Chinese College Student Computer Design Competition"
+
+- year: 2023
+  month: 7
+  type: student
+  prize: "National Grand Prize"
+  competition: "8th International College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "GAO Changqing"
+  title: "International College Student Intelligent Agricultural Equipment Innovation Competition"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "MAO Wulan"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "National Third Prize"
+  competition: "18th China Graduate Electronic Design Competition"
+  participant: "FANG Wentai"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "SUN Xiaoming"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "18th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "LIU Guoliang"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "SUO Rui"
+  title: "Outstanding Academic Master's Thesis"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "LI Guo"
+  title: "Outstanding Professional Master's Thesis"
+
+- year: 2023
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "ZHAO Guan'ao"
+  title: "Outstanding Professional Master's Thesis"
+
+- year: 2023
+  month: 5
+  type: student
+  prize: "Provincial First Prize"
+  competition: "14th \"Challenge Cup\" Shaanxi College Student Extracurricular Academic and Technological Works Competition"
+  participant: "GAO Changqing"
+  title: "\"Challenge Cup\" College Student Extracurricular Academic and Technological Works Competition"
+
+- year: 2023
+  month: 4
+  type: student
+  prize: "National Grand Prize"
+  competition: "8th International College Student Smart Agriculture Innovation Competition"
+  participant: "GAO Changqing"
+  title: "International College Student Smart Agriculture Innovation Competition"
+
+- year: 2023
+  month: 4
+  type: student
+  prize: "National Second Prize"
+  competition: "8th International College Student Smart Agriculture Innovation Competition"
+  participant: "FANG Wentai"
+  title: "International College Student Smart Agriculture Innovation Competition"
+
+- year: 2023
+  month: 4
+  type: student
+  prize: "National First Prize"
+  competition: "China Robot and Artificial Intelligence Competition"
+  participant: "JING Xudong"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2023
+  month: 4
+  type: student
+  prize: "National Second Prize"
+  competition: "China Robot and Artificial Intelligence Competition"
+  participant: "SUN Xiaoming"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2023
+  month: 4
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "China Robot and Artificial Intelligence Competition"
+  participant: "GAO Changqing"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2022
+  month: 12
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "15th Shaanxi Provincial Natural Science Excellent Academic Paper Award"
+  participant: "GAO Fangfang"
+  title: "Shaanxi Provincial Natural Science Excellent Academic Paper Award"
+
+- year: 2022
+  month: 11
+  type: student
+  prize: "National First Prize"
+  competition: "24th China Robot and Artificial Intelligence Competition"
+  participant: "WU Zhenchao"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2022
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "LI Guo"
+  title: "National Scholarship"
+
+- year: 2022
+  month: 10
+  type: student
+  prize: "National First Prize"
+  participant: "SUO Rui"
+  title: "National Scholarship"
+
+- year: 2022
+  month: 9
+  type: student
+  prize: "National Second Prize"
+  competition: "17th China Graduate Electronic Design Competition"
+  participant: "LI Guo"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2022
+  month: 8
+  type: student
+  prize: "National Second Prize"
+  competition: "10th National College Student Optoelectronic Design Competition"
+  participant: "LI Guo"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "17th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "YANG Ruizhe"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "17th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "ZHAO Guan'ao"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial First Prize"
+  competition: "24th China Robot and Artificial Intelligence Competition, Shaanxi Division"
+  participant: "WU Zhenchao"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "24th China Robot and Artificial Intelligence Competition, Shaanxi Division"
+  participant: "LI Guo"
+  title: "China Robot and Artificial Intelligence Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "10th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "FANG Wentai"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2022
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "10th National College Student Optoelectronic Design Competition, Northwest Division"
+  participant: "WU Zhenchao"
+  title: "National College Student Optoelectronic Design Competition"
+
+- year: 2022
+  month: 6
+  type: student
+  prize: "National Second Prize"
+  competition: "18th China Graduate Electronic Design Competition"
+  participant: "LI Guo"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2022
+  month: 6
+  type: student
+  prize: "University First Prize"
+  participant: "GAO Fangfang"
+  title: "Outstanding Academic Master's Thesis"
+
+- year: 2022
+  month: 6
+  type: student
+  prize: "Excellence Award"
+  competition: "7th College Student Intelligent Agricultural Equipment Innovation Competition"
+  participant: "YANG Ruizhe"
+  title: "College Student Intelligent Agricultural Equipment Innovation Competition"
+
+- year: 2022
+  month: 5
+  type: student
+  prize: "National Second Prize"
+  competition: "China Graduate Rural Revitalization Science and Technology Innovation Competition (\"Suyan Cup\"), 3rd Technical Works Contest"
+  participant: "WU Zhenchao"
+  title: "China Graduate Rural Revitalization Science and Technology Innovation Competition"
+
+- year: 2021
+  month: 7
+  type: student
+  prize: "Provincial Second Prize"
+  competition: "16th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "YANG Ruizhe"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2021
+  month: 7
+  type: student
+  prize: "Provincial Third Prize"
+  competition: "16th China Graduate Electronic Design Competition, Northwest China Division"
+  participant: "FANG Wentai"
+  title: "China Graduate Electronic Design Competition"
+
+- year: 2021
+  month: 7
+  type: student
+  prize: "National Third Prize"
+  competition: "National College Student Artificial Intelligence and Agricultural Robot Competition"
+  participant: "WU Zhenchao"
+  title: "National College Student Artificial Intelligence and Agricultural Robot Competition"

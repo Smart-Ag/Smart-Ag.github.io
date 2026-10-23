@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /awards/
+alt_url: /en/awards/
 title: Awards
 nav: true
 nav_order: 6
