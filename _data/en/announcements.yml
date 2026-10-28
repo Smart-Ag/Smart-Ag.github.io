@@ -2,6 +2,8 @@
 # English version of Lab News. Mirrors _data/announcements.yml (newest first).
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 
+- zh_title: 'Agronomy 和 Horticulturae 期刊将携手西北农林科技大学园艺学院，于11月3日举办学术出版交流会。本次活动将聚焦英文科技论文写作、曼迪匹艾（MDPI）文章处理流程和曼迪匹艾（MDPI）介绍及招聘宣讲等，为青年学者提供实用指导与面对面交流的机会，推动科研成果的高效传播与共享。会议时间11月3日 9:00-10:50。西北农林科技大学（南校区）绣山活动中心102招聘厅'
+  title: 'The journals Agronomy and Horticulturae, together with the College of Horticulture of Northwest A&F University, will hold an academic publishing exchange meeting on 3 November. The event will focus on English scientific writing, the MDPI article-processing workflow, and an introduction to MDPI together with its recruitment talk, offering young scholars practical guidance and face-to-face exchange to promote efficient sharing of research results. Time: 3 November, 9:00–10:50. Venue: Room 102 (Recruitment Hall), Xiushan Activity Center, South Campus, Northwest A&F University.'
 - zh_title: 团队负责人傅隆生教授将应邀参加“建设世界一流农业科技期刊——以高水平期刊赋能农业科技自立自强”活动，分享科学家办刊经验。
   title: Prof. FU Longsheng has been invited to the event "Building World-Class Agricultural Sci-Tech Journals — Empowering Agricultural Sci-Tech Self-Reliance with High-Level Journals", where he will share his experience as a scientist in running a journal.
   link: https://caass.caas.cn/xwzx/tzgg/75b07bbda3b8471a8d9a7a04f3513a52.htm
