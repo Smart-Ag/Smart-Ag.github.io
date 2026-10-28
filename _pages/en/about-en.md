@@ -32,7 +32,7 @@ nav: false
 {% if news_items and news_items.size > 0 %}
 <div class="table-responsive">
   <table class="table table-sm table-borderless">
-    {% for item in news_items limit: 10 %}
+    {% for item in news_items %}
       <tr>
         <th scope="row" style="width: auto; vertical-align: top; white-space: nowrap;">
           {% if item.date %}{{ item.date | date: '%b %d, %Y' }}{% endif %}
