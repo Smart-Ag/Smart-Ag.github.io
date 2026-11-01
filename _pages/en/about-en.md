@@ -1,10 +1,14 @@
 ---
-layout: page
+layout: about
 title: Home
 permalink: /en/
 lang: en
 alt_url: /
 nav: false
+announcements:
+  enabled: true
+news_title: Lab News
+technologies_title: Technologies for a sustainable future
 ---
 
 <div class="en-home" style="font-family: 'Times New Roman', serif;">
@@ -25,35 +29,6 @@ nav: false
   <li>Remote sensing and UAV-based field phenotyping and yield estimation</li>
   <li>Smart orchard production: sensing, decision-making and intelligent equipment</li>
 </ul>
-
-<h2 style="margin-top: 2rem;">Latest News</h2>
-
-{% assign news_items = site.data.en.announcements %}
-{% if news_items and news_items.size > 0 %}
-<div class="table-responsive">
-  <table class="table table-sm table-borderless">
-    {% for item in news_items %}
-      <tr>
-        <th scope="row" style="width: auto; vertical-align: top; white-space: nowrap;">
-          {% if item.date %}{{ item.date | date: '%b %d, %Y' }}{% endif %}
-        </th>
-        <td>
-          {% if item.link and item.link != '' %}
-            <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
-          {% else %}
-            {{ item.title }}
-          {% endif %}
-        </td>
-      </tr>
-    {% endfor %}
-  </table>
-</div>
-<p style="margin-top: 1rem;">
-  <a href="{{ '/en/news/' | relative_url }}">All news &rarr;</a>
-</p>
-{% else %}
-<p>No news yet.</p>
-{% endif %}
 
 <h2 style="margin-top: 2rem;">Explore</h2>
 

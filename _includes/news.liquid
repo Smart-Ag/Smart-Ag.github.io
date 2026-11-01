@@ -34,8 +34,8 @@
     }
   </style>
 
-  {% if site.data.announcements != blank %}
-    {% assign announcements = site.data.announcements %}
+  {% assign announcements = include.source | default: site.data.announcements %}
+  {% if announcements != blank %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
         {% for item in announcements %}

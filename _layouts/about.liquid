@@ -27,12 +27,12 @@ layout: default
               </div>
 
               <!-- 左右导航按钮 -->
-              <button class="carousel-btn prev-btn" aria-label="上一张图片">
+              <button class="carousel-btn prev-btn" aria-label="{% if page.lang == 'en' %}Previous image{% else %}上一张图片{% endif %}">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M15 18l-6-6 6-6"/>
                 </svg>
               </button>
-              <button class="carousel-btn next-btn" aria-label="下一张图片">
+              <button class="carousel-btn next-btn" aria-label="{% if page.lang == 'en' %}Next image{% else %}下一张图片{% endif %}">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M9 18l6-6-6-6"/>
                 </svg>
@@ -60,7 +60,7 @@ layout: default
               <div class="image-container-4-3">
                 <div class="d-flex flex-column align-items-center justify-content-center h-100">
                   <i class="fas fa-image fa-3x text-muted mb-3"></i>
-                  <p class="text-muted mb-0">暂无展示图片</p>
+                  <p class="text-muted mb-0">{% if page.lang == 'en' %}No images yet{% else %}暂无展示图片{% endif %}</p>
                 </div>
               </div>
             </div>
@@ -84,12 +84,16 @@ layout: default
   <div class="news-section">
     <div class="container">
       <h2 class="section-title">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit; text-decoration: none;">
+      {% assign news_url = '/news/' %}
+      {% if page.lang == 'en' %}{% assign news_url = '/en/news/' %}{% endif %}
+        <a href="{{ news_url | relative_url }}" style="color: inherit; text-decoration: none;">
           {{ page.news_title | default: 'Lab News' }}
         </a>
       </h2>
+      {% assign news_source = site.data.announcements %}
+      {% if page.lang == 'en' %}{% assign news_source = site.data.en.announcements %}{% endif %}
       {% if page.announcements and page.announcements.enabled %}
-        {% include news.liquid limit=true %}
+        {% include news.liquid limit=true source=news_source %}
       {% else %}
         <p>No news available.</p>
       {% endif %}
