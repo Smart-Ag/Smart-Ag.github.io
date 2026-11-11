@@ -2,6 +2,8 @@
 # English version of Lab News. Mirrors _data/announcements.yml (newest first).
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 
+- zh_title: '农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
+  title: 'Dr. WANG Yingkuan, Senior Research Fellow (Grade II) of the Planning and Design Institute of the Ministry of Agriculture and Rural Affairs, Executive Secretary-General of the Chinese Society of Agricultural Engineering and Editor-in-Chief of Transactions of the CSAE, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with his delegation to guide the team''s research.'
 - zh_title: '江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
   title: 'Prof. LIU Muhua, Vice President of Jiangxi Agricultural University, and his delegation visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park to guide the team''s research.'
 - zh_title: '中南林业科技大学副校长谢方平教授、湖南农业大学机电工程学院吴明亮教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
