@@ -2,21 +2,17 @@
 # English version of Lab News. Mirrors _data/announcements.yml (newest first).
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 
-<<<<<<< HEAD
-- zh_title: '祝贺团队硕士研究生龚其林、戎军科带队获“滨智杯”第八届中国研究生机器人创新设计大赛全国三等奖。'
-  title: 'Congratulations to GONG Qilin and RONG Junke, who led their teams to a National Third Prize in the 8th China Graduate Robot Innovation Design Competition ("Binzhi Cup").'
-- zh_title: '农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究。'
 =======
 - zh_title: '2026年11月，祝贺团队龚其林、戎军科带队获“滨智杯”第八届中国研究生机器人创新设计大赛全国三等奖'
   title: 'In November 2026, congratulations to GONG Qilin and RONG Junke, who led their teams to a National Third Prize in the 8th China Graduate Robot Innovation Design Competition ("Binzhi Cup").'
 - zh_title: '农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
 >>>>>>> 2f436aaef50d82bbf449b35d010c7f56a8c22e21
   title: 'Dr. WANG Yingkuan, Senior Research Fellow (Grade II) of the Planning and Design Institute of the Ministry of Agriculture and Rural Affairs, Executive Secretary-General of the Chinese Society of Agricultural Engineering and Editor-in-Chief of Transactions of the CSAE, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with his delegation to guide the team''s research.'
-- zh_title: '江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究。'
+- zh_title: '江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
   title: 'Prof. LIU Muhua, Vice President of Jiangxi Agricultural University, and his delegation visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park to guide the team''s research.'
-- zh_title: '中南林业科技大学副校长谢方平教授、湖南农业大学机电工程学院吴明亮教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究。'
+- zh_title: '中南林业科技大学副校长谢方平教授、湖南农业大学机电工程学院吴明亮教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
   title: 'Prof. XIE Fangping, Vice President of Central South University of Forestry and Technology, and Prof. WU Mingliang from the College of Mechanical and Electrical Engineering, Hunan Agricultural University, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with their delegation to guide the team''s research.'
-- zh_title: '团队邀请澳大利亚新英格兰大学教授、Computers in Industry 主编 Raymond CHIONG 博士分享人工智能在农业领域的跨学科研究进展。'
+- zh_title: '团队邀请澳大利亚新英格兰大学教授、Computers in Industry 主编 Raymond CHIONG 博士分享人工智能在农业领域的跨学科研究进展'
   title: 'The team invited Prof. Raymond CHIONG from the University of New England, Australia, Editor-in-Chief of Computers in Industry, to share interdisciplinary research advances in artificial intelligence for agriculture.'
 - zh_title: 团队负责人傅隆生教授将应邀参加“建设世界一流农业科技期刊——以高水平期刊赋能农业科技自立自强”活动，分享科学家办刊经验。
   title: Prof. FU Longsheng has been invited to the event "Building World-Class Agricultural Sci-Tech Journals — Empowering Agricultural Sci-Tech Self-Reliance with High-Level Journals", where he will share his experience as a scientist in running a journal.
