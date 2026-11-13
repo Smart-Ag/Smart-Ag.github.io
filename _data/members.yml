@@ -247,7 +247,7 @@ current:
     degree: "硕士研究生"
     photo: "/assets/img/members/gdh.jpg"
     research: ""
-  
+
   - year: "2026级"
     name: "朱雨乐"
     degree: "硕士研究生"
@@ -283,8 +283,6 @@ current:
     degree: "硕士研究生"
     photo: "/assets/img/members/xys.jpg"
     research: ""
-
-
 
 # 已毕业学生
 graduated:

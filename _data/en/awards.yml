@@ -577,9 +577,9 @@
   month: 8
   type: student
   prize: "Provincial Third Prize"
-  competition: "9th \"Internet+\" College Student Innovation and Entrepreneurship Competition, Shaanxi Division"
+  competition: '9th "Internet+" College Student Innovation and Entrepreneurship Competition, Shaanxi Division'
   participant: "GAO Changqing"
-  title: "\"Internet+\" College Student Innovation and Entrepreneurship Competition"
+  title: '"Internet+" College Student Innovation and Entrepreneurship Competition'
 
 - year: 2023
   month: 8
@@ -695,9 +695,9 @@
   month: 5
   type: student
   prize: "Provincial First Prize"
-  competition: "14th \"Challenge Cup\" Shaanxi College Student Extracurricular Academic and Technological Works Competition"
+  competition: '14th "Challenge Cup" Shaanxi College Student Extracurricular Academic and Technological Works Competition'
   participant: "GAO Changqing"
-  title: "\"Challenge Cup\" College Student Extracurricular Academic and Technological Works Competition"
+  title: '"Challenge Cup" College Student Extracurricular Academic and Technological Works Competition'
 
 - year: 2023
   month: 4
@@ -860,7 +860,7 @@
   month: 5
   type: student
   prize: "National Second Prize"
-  competition: "China Graduate Rural Revitalization Science and Technology Innovation Competition (\"Suyan Cup\"), 3rd Technical Works Contest"
+  competition: 'China Graduate Rural Revitalization Science and Technology Innovation Competition ("Suyan Cup"), 3rd Technical Works Contest'
   participant: "WU Zhenchao"
   title: "China Graduate Rural Revitalization Science and Technology Innovation Competition"
 

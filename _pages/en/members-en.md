@@ -47,7 +47,7 @@ nav_order: 7
 
   <h2>Faculty</h2>
 
-  {% for person in faculty %}
+{% for person in faculty %}
   <div class="en-card">
     {% if person.photo %}<img src="{{ person.photo | relative_url }}" alt="{{ person.name }}" loading="lazy">{% else %}<div class="ph">Photo</div>{% endif %}
     <div>

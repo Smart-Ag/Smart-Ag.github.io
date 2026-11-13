@@ -34,21 +34,21 @@ nav_order: 6
     <div><div class="num">{{ faculty_n }}</div><div class="lbl">Faculty honours</div></div>
   </div>
 
-  {% for y in years %}
-    <h2>{{ y }}</h2>
-    {% assign items = awards | where: "year", y %}
-    {% for a in items %}
-      <div class="en-award">
-        {% if a.prize %}<span class="prize{% if a.type == 'faculty' %} faculty{% endif %}">{{ a.prize }}</span>{% endif %}
-        <span class="title">{{ a.title }}</span>
-        <div class="meta">
-          {% if a.month %}{{ a.month }}/{{ y }}{% endif %}
-          {% if a.participant %} · {{ a.participant }}{% endif %}
-          {% if a.competition %} · {{ a.competition }}{% endif %}
-        </div>
-        {% if a.note %}<div class="meta"><em>{{ a.note }}</em></div>{% endif %}
-      </div>
-    {% endfor %}
-  {% endfor %}
+{% for y in years %}
+<h2>{{ y }}</h2>
+{% assign items = awards | where: "year", y %}
+{% for a in items %}
+<div class="en-award">
+{% if a.prize %}<span class="prize{% if a.type == 'faculty' %} faculty{% endif %}">{{ a.prize }}</span>{% endif %}
+<span class="title">{{ a.title }}</span>
+<div class="meta">
+{% if a.month %}{{ a.month }}/{{ y }}{% endif %}
+{% if a.participant %} · {{ a.participant }}{% endif %}
+{% if a.competition %} · {{ a.competition }}{% endif %}
+</div>
+{% if a.note %}<div class="meta"><em>{{ a.note }}</em></div>{% endif %}
+</div>
+{% endfor %}
+{% endfor %}
 
 </div>

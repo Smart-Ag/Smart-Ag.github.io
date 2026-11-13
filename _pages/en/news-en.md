@@ -39,9 +39,10 @@ nav: false
     {% if item.description %}
       <p class="news-description lead">{{ item.description }}</p>
     {% endif %}
+
   </div>
 
-  {% unless forloop.last %}<hr class="my-5">{% endunless %}
+{% unless forloop.last %}<hr class="my-5">{% endunless %}
 {% endfor %}
 
 {% if sorted_news.size == 0 %}

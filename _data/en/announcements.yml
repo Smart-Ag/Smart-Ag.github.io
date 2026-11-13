@@ -2,18 +2,16 @@
 # English version of Lab News. Mirrors _data/announcements.yml (newest first).
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 
-=======
-- zh_title: '2026年11月，祝贺团队龚其林、戎军科带队获“滨智杯”第八届中国研究生机器人创新设计大赛全国三等奖'
+- zh_title: "2026年11月，祝贺团队龚其林、戎军科带队获“滨智杯”第八届中国研究生机器人创新设计大赛全国三等奖"
   title: 'In November 2026, congratulations to GONG Qilin and RONG Junke, who led their teams to a National Third Prize in the 8th China Graduate Robot Innovation Design Competition ("Binzhi Cup").'
-- zh_title: '农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
->>>>>>> 2f436aaef50d82bbf449b35d010c7f56a8c22e21
-  title: 'Dr. WANG Yingkuan, Senior Research Fellow (Grade II) of the Planning and Design Institute of the Ministry of Agriculture and Rural Affairs, Executive Secretary-General of the Chinese Society of Agricultural Engineering and Editor-in-Chief of Transactions of the CSAE, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with his delegation to guide the team''s research.'
-- zh_title: '江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
-  title: 'Prof. LIU Muhua, Vice President of Jiangxi Agricultural University, and his delegation visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park to guide the team''s research.'
-- zh_title: '中南林业科技大学副校长谢方平教授、湖南农业大学机电工程学院吴明亮教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
-  title: 'Prof. XIE Fangping, Vice President of Central South University of Forestry and Technology, and Prof. WU Mingliang from the College of Mechanical and Electrical Engineering, Hunan Agricultural University, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with their delegation to guide the team''s research.'
-- zh_title: '团队邀请澳大利亚新英格兰大学教授、Computers in Industry 主编 Raymond CHIONG 博士分享人工智能在农业领域的跨学科研究进展'
-  title: 'The team invited Prof. Raymond CHIONG from the University of New England, Australia, Editor-in-Chief of Computers in Industry, to share interdisciplinary research advances in artificial intelligence for agriculture.'
+- zh_title: "农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究"
+  title: "Dr. WANG Yingkuan, Senior Research Fellow (Grade II) of the Planning and Design Institute of the Ministry of Agriculture and Rural Affairs, Executive Secretary-General of the Chinese Society of Agricultural Engineering and Editor-in-Chief of Transactions of the CSAE, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with his delegation to guide the team's research."
+- zh_title: "江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究"
+  title: "Prof. LIU Muhua, Vice President of Jiangxi Agricultural University, and his delegation visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park to guide the team's research."
+- zh_title: "中南林业科技大学副校长谢方平教授、湖南农业大学机电工程学院吴明亮教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究"
+  title: "Prof. XIE Fangping, Vice President of Central South University of Forestry and Technology, and Prof. WU Mingliang from the College of Mechanical and Electrical Engineering, Hunan Agricultural University, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with their delegation to guide the team's research."
+- zh_title: "团队邀请澳大利亚新英格兰大学教授、Computers in Industry 主编 Raymond CHIONG 博士分享人工智能在农业领域的跨学科研究进展"
+  title: "The team invited Prof. Raymond CHIONG from the University of New England, Australia, Editor-in-Chief of Computers in Industry, to share interdisciplinary research advances in artificial intelligence for agriculture."
 - zh_title: 团队负责人傅隆生教授将应邀参加“建设世界一流农业科技期刊——以高水平期刊赋能农业科技自立自强”活动，分享科学家办刊经验。
   title: Prof. FU Longsheng has been invited to the event "Building World-Class Agricultural Sci-Tech Journals — Empowering Agricultural Sci-Tech Self-Reliance with High-Level Journals", where he will share his experience as a scientist in running a journal.
   link: https://caass.caas.cn/xwzx/tzgg/75b07bbda3b8471a8d9a7a04f3513a52.htm
@@ -26,7 +24,7 @@
 - zh_title: 校长吴普特教授看望慰问团队新进教师江艾莲博士。
   title: President Wu Pute visited and welcomed Dr. Jiang Ailian, a new faculty member of our team.
   link: https://news.nwsuaf.edu.cn/xnxw/de64efe66af84938a4ecc8de463ae1e9.htm
-- zh_title: '2026年9月7日，团队邀请澳大利亚中央昆士兰大学Kerry Walsh教授作“From Xylem Hydraulics to Mango Machines: A Story of Curiosity and Need”学术报告。'
+- zh_title: "2026年9月7日，团队邀请澳大利亚中央昆士兰大学Kerry Walsh教授作“From Xylem Hydraulics to Mango Machines: A Story of Curiosity and Need”学术报告。"
   title: 'On 7 September 2026, the team invited Prof. Kerry Walsh from Central Queensland University, Australia, to give a talk titled "From Xylem Hydraulics to Mango Machines: A Story of Curiosity and Need".'
   link: https://cmee.nwafu.edu.cn/xwzx/xydt/90ba1de33e8b43c4bc696049f0a71ed9.htm
 - zh_title: 2026年9月1日，团队邀请荷兰瓦赫宁根大学Mahboubeh KEYVANARA助理教授作“Robotic Control and Manipulation in Agricultural Settings, Challenge and Future Vision”学术报告。
@@ -105,7 +103,7 @@
   title: Shiao's paper "Binocular-depth-guided dual-view camera-LiDAR fusion for kiwifruit pose estimation in robotic harvesting" was accepted by Computers and Electronics in Agriculture. Congratulations!
 - zh_title: Shuolin's paper “Recognition of kiwifruit pruning position based on vine segmentation and dormant bud detection with their planar distribution” was accepted by Computers and Electronics in Agriculture. Congratulations!
   title: Shuolin's paper "Recognition of kiwifruit pruning position based on vine segmentation and dormant bud detection with their planar distribution" was accepted by Computers and Electronics in Agriculture. Congratulations!
-- zh_title: '2026年5月7日，团队负责人傅隆生教授邀请巴西农业研究公司数字农业中心Jayme Garcia Arnal BARBEDO研究员作题为“Smart Agriculture Webinar: Artificial Intelligence Initiatives for Smart Tropical Agriculture”学术报告。'
+- zh_title: "2026年5月7日，团队负责人傅隆生教授邀请巴西农业研究公司数字农业中心Jayme Garcia Arnal BARBEDO研究员作题为“Smart Agriculture Webinar: Artificial Intelligence Initiatives for Smart Tropical Agriculture”学术报告。"
   title: 'On 7 May 2026, Prof. FU Longsheng invited Dr. Jayme Garcia Arnal BARBEDO from the Digital Agriculture Center, Embrapa, Brazil, to give a talk titled "Smart Agriculture Webinar: Artificial Intelligence Initiatives for Smart Tropical Agriculture".'
   link: https://cmee.nwafu.edu.cn/xwzx/xydt/3628878852cb4d489cea49aa92f3859d.htm
 - zh_title: Ruichao's paper “Monocular vision-based clamping-point determination via pose estimation for walnut vibration harvesting” was accepted by Agriculture. Congratulations!
@@ -128,7 +126,7 @@
 - zh_title: 2026年3月19日，团队负责人傅隆生教授应邀为**云南农业大学**做专题学术报告。
   title: On 19 March 2026, Prof. FU Longsheng was invited to give an academic seminar at Yunnan Agricultural University.
   link: https://news.ynau.edu.cn/info/1193/66208.htm
-- zh_title: '2026年3月6日，团队负责人傅隆生教授邀请英国哈珀亚当斯大学Fernando Auat CHEEIN教授作题为“Smart Agriculture Webinar: Fully Autonomous Robotics in Groves: Current and Future Challenges”学术报告。'
+- zh_title: "2026年3月6日，团队负责人傅隆生教授邀请英国哈珀亚当斯大学Fernando Auat CHEEIN教授作题为“Smart Agriculture Webinar: Fully Autonomous Robotics in Groves: Current and Future Challenges”学术报告。"
   title: 'On 6 March 2026, Prof. FU Longsheng invited Prof. Fernando Auat CHEEIN from Harper Adams University, UK, to give a talk titled "Smart Agriculture Webinar: Fully Autonomous Robotics in Groves: Current and Future Challenges".'
   link: https://cmee.nwafu.edu.cn/xwzx/xydt/b1d1862badb346cb908a910828906549.htm
 - zh_title: 祝贺团队傅隆生教授再次入选爱思唯尔 (Elsevier) 中国高被引学者 (Highly Cited Chinese Researchers) 榜单。
@@ -137,10 +135,10 @@
 - zh_title: 2026年2月3日，团队负责人傅隆生教授应邀为**中国农业大学工学院**做专题学术报告。
   title: On 3 February 2026, Prof. FU Longsheng was invited to give an academic seminar at the College of Engineering, China Agricultural University.
   link: https://coe.cau.edu.cn/art/2026/1/29/art_28278_1098235.html
-- zh_title: '2026年1月30日，团队负责人傅隆生教授邀请希腊雅典农业大学Spyros FOUNTAS教授作题为“Smart Agriculture Webinar: Artificial Intelligence for Crop Status”学术报告。'
+- zh_title: "2026年1月30日，团队负责人傅隆生教授邀请希腊雅典农业大学Spyros FOUNTAS教授作题为“Smart Agriculture Webinar: Artificial Intelligence for Crop Status”学术报告。"
   title: 'On 30 January 2026, Prof. FU Longsheng invited Prof. Spyros FOUNTAS from the Agricultural University of Athens, Greece, to give a talk titled "Smart Agriculture Webinar: Artificial Intelligence for Crop Status".'
   link: https://cmee.nwsuaf.edu.cn/xwzx/xydt/49799b9326844102b268c17fc3cfc3f1.htm
-- zh_title: '2026年1月23日，团队负责人傅隆生教授邀请意大利帕多瓦大学Francesco MARINELLO教授作题为“Smart Agriculture Webinar: Smart Agriculture and the Trade-off Between Variability and Digitization”学术报告。'
+- zh_title: "2026年1月23日，团队负责人傅隆生教授邀请意大利帕多瓦大学Francesco MARINELLO教授作题为“Smart Agriculture Webinar: Smart Agriculture and the Trade-off Between Variability and Digitization”学术报告。"
   title: 'On 23 January 2026, Prof. FU Longsheng invited Prof. Francesco MARINELLO from the University of Padova, Italy, to give a talk titled "Smart Agriculture Webinar: Smart Agriculture and the Trade-off Between Variability and Digitization".'
   link: https://cmee.nwsuaf.edu.cn/xwzx/xydt/cc5b37159c1343498527aa24942fda8b.htm
 - zh_title: 2026年1月18日下午，“汇智同行 共启新章：AgRobot团队联欢宴”在杨凌国合之禾开元名庭酒店圆满举行。
@@ -150,7 +148,7 @@
 - zh_title: 2026年1月18日，团队负责人傅隆生教授邀请俄罗斯联邦金融大学Nikita ANDRIYANOV教授作题为“Ensembling Apple Detection Models and Semantic Segmentation for Autonomous Transport in Horticulture”学术报告。
   title: On 18 January 2026, Prof. FU Longsheng invited Prof. Nikita ANDRIYANOV from the Financial University under the Government of the Russian Federation to give a talk titled "Ensembling Apple Detection Models and Semantic Segmentation for Autonomous Transport in Horticulture".
   link: https://cmee.nwafu.edu.cn/kxyj/xsjl/78effcdf0f5342b2ba46e5d1e03b5182.htm
-- zh_title: '2026年1月18日，团队负责人傅隆生教授邀请俄罗斯国立土地利用规划大学Vladimir I. SOLOVIEV教授作题为“Artificial Intelligence for Smart Intensive Apple Orchards: Lessons and Prospects of China–Russia Collaboration”学术报告。'
+- zh_title: "2026年1月18日，团队负责人傅隆生教授邀请俄罗斯国立土地利用规划大学Vladimir I. SOLOVIEV教授作题为“Artificial Intelligence for Smart Intensive Apple Orchards: Lessons and Prospects of China–Russia Collaboration”学术报告。"
   title: 'On 18 January 2026, Prof. FU Longsheng invited Prof. Vladimir I. SOLOVIEV from the State University of Land Use Planning, Russia, to give a talk titled "Artificial Intelligence for Smart Intensive Apple Orchards: Lessons and Prospects of China–Russia Collaboration".'
   link: https://cmee.nwafu.edu.cn/kxyj/xsjl/cd051ff615fc4466b1a005d7c6ce8b64.htm
 - zh_title: 2026年1月18日，团队负责人傅隆生教授邀请俄罗斯联邦金融大学Petr NIKITIN教授作题为“Parameter Optimization and Further Training of Large Language Models for Use in the Agro-Industrial Complex”学术报告。
@@ -180,7 +178,7 @@
   title: Lizhi's paper "Mapping of cotton bolls and branches with high-granularity through point cloud segmentation" was accepted by Plant Methods. Congratulations!
 - zh_title: 'Lizhi''s paper "Cotton3DGaussians: Multiview 3D Gaussian Splatting for boll mapping and plant architecture analysis" was accepted by Computers and Electronics in Agriculture. Congratulations!'
   title: 'Lizhi''s paper "Cotton3DGaussians: Multiview 3D Gaussian Splatting for boll mapping and plant architecture analysis" was accepted by Computers and Electronics in Agriculture. Congratulations!'
-- zh_title: '2025年12月11日，团队负责人傅隆生教授邀请土耳其阿克登尼兹大学KARAYEL Davut教授作“Innovative Engineering Solutions for Modern Plant Production: Advances in Seeding Technology in Turkey”学术报告。'
+- zh_title: "2025年12月11日，团队负责人傅隆生教授邀请土耳其阿克登尼兹大学KARAYEL Davut教授作“Innovative Engineering Solutions for Modern Plant Production: Advances in Seeding Technology in Turkey”学术报告。"
   title: 'On 11 December 2025, Prof. FU Longsheng invited Prof. KARAYEL Davut from Akdeniz University, Türkiye, to give a talk titled "Innovative Engineering Solutions for Modern Plant Production: Advances in Seeding Technology in Turkey".'
   link: https://cmee.nwsuaf.edu.cn/xwzx/xydt/99e28f06e6a84e4e97ed50fd7c4eb8b4.htm
 - zh_title: 2025年12月11日，团队负责人傅隆生教授邀请比利时根特大学VAZQUEZ Arellano Manuel研究员作“Precision Soil and Crop Engineering Group”学术报告。
@@ -259,7 +257,7 @@
 - zh_title: 2025年6月16日，实验室邀请韩国忠南国立大学Yong Joo Kim教授作“Advanced Engineering for Agricultural Machinery”学术报告。
   title: On 16 June 2025, the lab invited Prof. Yong Joo Kim from Chungnam National University, Korea, to give a talk titled "Advanced Engineering for Agricultural Machinery".
   link: https://cmee.nwsuaf.edu.cn/kxyj/xsjl/6a54f016787749de86000110ef682841.htm
-- zh_title: '2025年6月16日，实验室邀请日本筑波大学Tofael Ahamed副教授作“Progress and Future Prospects in Agricultural and Food Engineering: The Past 10 Years and The Next 10 Years”学术报告。'
+- zh_title: "2025年6月16日，实验室邀请日本筑波大学Tofael Ahamed副教授作“Progress and Future Prospects in Agricultural and Food Engineering: The Past 10 Years and The Next 10 Years”学术报告。"
   title: 'On 16 June 2025, the lab invited Assoc. Prof. Tofael Ahamed from the University of Tsukuba, Japan, to give a talk titled "Progress and Future Prospects in Agricultural and Food Engineering: The Past 10 Years and The Next 10 Years".'
   link: https://cmee.nwafu.edu.cn/kxyj/xsjl/faaa0aede01b435bb8e77eb112fe724a.htm
 - zh_title: 2025年6月13日至15日，团队负责人傅隆生教授应邀参加2025智慧农业与人工智能国际学术会议（SAAI 2025），作“Key Technologies for Fully Intelligent Production of Kiwifruit”大会主旨报告。
