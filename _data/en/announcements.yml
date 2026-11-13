@@ -2,6 +2,8 @@
 # English version of Lab News. Mirrors _data/announcements.yml (newest first).
 # zh_title: exact title of the Chinese counterpart — key used by check_bilingual.py.
 
+- zh_title: '祝贺团队龚其林、戎军科带队获“滨智杯”第八届中国研究生机器人创新设计大赛全国三等奖'
+  title: 'Congratulations to GONG Qilin and RONG Junke, who led their teams to a National Third Prize in the 8th China Graduate Robot Innovation Design Competition ("Binzhi Cup").'
 - zh_title: '农业农村部规划设计研究院二级研究员、中国农业工程学会执行秘书长、农业工程学报总编王应宽博士一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
   title: 'Dr. WANG Yingkuan, Senior Research Fellow (Grade II) of the Planning and Design Institute of the Ministry of Agriculture and Rural Affairs, Executive Secretary-General of the Chinese Society of Agricultural Engineering and Editor-in-Chief of Transactions of the CSAE, visited the Yangling International Kiwifruit Innovation and Entrepreneurship Park with his delegation to guide the team''s research.'
 - zh_title: '江西农业大学副校长刘木华教授一行莅临杨凌国际猕猴桃创新创业园指导团队研究'
